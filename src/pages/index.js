@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import Layout from '@/components/Layout'
 import Head from 'next/head'
 import Image from 'next/image'
@@ -5,12 +6,20 @@ import profilePic from '../../public/images/profile/sid.jpg'
 
 import AnimatedText from '@/components/AnimatedText'
 import Link from 'next/link'
-import { LinkArrow } from '@/components/Icons'
+import { LinkArrow, ClipboardIcon } from '@/components/Icons'
 import HireMe from '@/components/HireMe'
 import lightBulb from "../../public/images/svgs/miscellaneous_icons_1.svg"
 import TransitionEffect from '@/components/TransitionEffect'
 
 export default function Home() {
+  const [copied, setCopied] = useState(false);
+  
+  const copyToClipboard = () => {
+    navigator.clipboard.writeText('npx abhay-singh');
+    setCopied(true);
+    setTimeout(() => setCopied(false), 2000);
+  };
+  
   return (
     <>
       <Head>
@@ -45,10 +54,14 @@ export default function Home() {
                 >
                   Resume <LinkArrow className={"w-6 ml-1"} />
                 </Link>
-                <Link href="https://github.com/sidharthhhh" target={"_blank"}
-                  className='ml-4 text-lg font-medium capitalize text-dark underline dark:text-light
-                  md:text-base '
-                >Contact</Link>
+                <button
+                  onClick={copyToClipboard}
+                  title="Run in terminal"
+                  className='ml-4 text-lg font-medium capitalize text-dark dark:text-light md:text-base flex items-center gap-2 transition-colors duration-200 hover:text-blue-600 dark:hover:text-blue-400'
+                >
+                  npx abhay-singh <ClipboardIcon className="w-5 h-5" />
+                </button>
+                {copied && <span className='ml-2 text-sm text-green-600 dark:text-green-400'>Copied! <span className='italic'>Run in terminal</span></span>}
 
                 {/* <HireMe /> */}
 
