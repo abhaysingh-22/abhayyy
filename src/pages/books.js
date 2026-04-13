@@ -8,8 +8,8 @@ const Books = () => {
   return (
     <>
      <Head>
-        <title>Books</title>
-        <meta name="description" content="Here their are some of my favorite books" />
+        <title>abhayyy | Blogs</title>
+        <meta name="description" content="Here their are elaboration of my projects." />
       </Head>
       <TransitionEffect />
 

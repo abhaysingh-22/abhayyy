@@ -1,6 +1,7 @@
 import React from "react";
 import { motion, useScroll } from "framer-motion";
 import { useRef } from "react";
+import Head from "next/head";
 import LiIcon from "@/components/LiIcon";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -56,8 +57,13 @@ const Experience = () => {
   });
 
   return (
-    <div className="my-16">
-      <TransitionEffect />
+    <>
+      <Head>
+        <title>abhayyy | Key Highlights</title>
+        <meta name="description" content="Explore my key highlights, achievements, and projects." />
+      </Head>
+      <div className="my-16">
+        <TransitionEffect />
       <h2 className="font-bold text-8xl mb-32 w-full text-center md:text-6xl xs:text-4xl md:mb-16">
         Key Highlights
       </h2>
@@ -199,7 +205,8 @@ const Experience = () => {
           />
         </ul>
       </div>
-    </div>
+      </div>
+    </>
   );
 };
 

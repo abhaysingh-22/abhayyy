@@ -56,9 +56,9 @@ export default function Home() {
                 <button
                   onClick={copyToClipboard}
                   title="Run in terminal"
-                  className='ml-4 text-lg font-medium capitalize text-dark dark:text-light md:text-base flex items-center gap-2 transition-colors duration-200 hover:text-blue-600 dark:hover:text-blue-400'
+                  className='ml-4 text-base font-medium capitalize text-dark dark:text-light md:text-base flex items-center gap-2 transition-colors duration-200 hover:text-blue-600 dark:hover:text-blue-400'
                 >
-                  npx abhay-singh <ClipboardIcon className="w-4 h-5" />
+                  npx abhay-singh <ClipboardIcon className="w-3 h-4" />
                 </button>
                 {copied && <span className='ml-2 text-sm text-green-600 dark:text-green-400'>Copied! <span className='italic'>Run in terminal</span></span>}
 
