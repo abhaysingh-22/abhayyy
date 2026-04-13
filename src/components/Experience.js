@@ -1,113 +1,109 @@
-import React from 'react'
-import { motion, useScroll } from 'framer-motion'
-import { useRef } from 'react'
-import LiIcon from './LiIcon'
+import React from "react";
+import { motion, useScroll } from "framer-motion";
+import { useRef } from "react";
+import LiIcon from "./LiIcon";
 
 const Details = ({ position, company, CompanyLink, time, address, work }) => {
+  const ref = useRef(null);
 
-    const ref = useRef(null);
-
-    return <li ref={ref} className='my-8 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col items-center justify-between
+  return (
+    <li
+      ref={ref}
+      className="my-8 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col items-center justify-between
     
-     md:w-[80%]'>
-        <LiIcon reference={ref} />
-        <motion.div
-            initial={{ y: 50 }}
-            whileInView={{ y: 0 }}
-            transition={{ duration: 0.5, type: "spring" }}
-        >
-            <h3 className='capitalize font-bold text-2xl sm:text-xl xs:text-lg'>{position} &nbsp; <a href={CompanyLink} target='_blank' className='text-primary dark:text-blue-700 capitalize'>@{company}</a></h3>
-            <span className='capitalize font-medium text-dark/75 dark:text-light-75 dark:text-light/75 xs:text-sm'>
-                {time} | {address}
-            </span>
-            <p className='font-medium w-full md:text-sm'>
-                {work}
-            </p>
-        </motion.div>
+     md:w-[80%]"
+    >
+      <LiIcon reference={ref} />
+      <motion.div
+        initial={{ y: 50 }}
+        whileInView={{ y: 0 }}
+        transition={{ duration: 0.5, type: "spring" }}
+      >
+        <h3 className="capitalize font-bold text-2xl sm:text-xl xs:text-lg">
+          {position} &nbsp;{" "}
+          <a
+            href={CompanyLink}
+            target="_blank"
+            className="text-primary dark:text-blue-700 capitalize"
+          >
+            @{company}
+          </a>
+        </h3>
+        <span className="capitalize font-medium text-dark/75 dark:text-light-75 dark:text-light/75 xs:text-sm">
+          {time} | {address}
+        </span>
+        <p className="font-medium w-full md:text-sm">{work}</p>
+      </motion.div>
     </li>
-}
+  );
+};
 
 const Experience = () => {
+  const ref = useRef(null);
 
-    const ref = useRef(null);
+  const { scrollYProgress } = useScroll({
+    target: ref,
+    offset: ["start end", "center start"],
+  });
 
+  return (
+    <div className="my-64">
+      <h2 className="font-bold text-8xl mb-32 w-full text-center md:text-6xl xs:text-4xl md:mb-16">
+        Experience
+      </h2>
 
-    const { scrollYProgress } = useScroll(
-        {
-            target: ref,
-            offset: ["start end", "center start"]
-        }
-    )
+      <div ref={ref} className="w-[75%] mx-auto relative lg:w-[90%] md:w-full">
+        <motion.div
+          style={{ scaleY: scrollYProgress }}
+          className="absolute left-9 top-0 w-[4px] h-full bg-dark origin-top
+                 dark:bg-light md:w-[2px] md:left-[30px] xs:left-[20px]"
+        />
 
+        <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-4">
+          <Details
+            position="Full Stack Developer "
+            company="Army Institute of Technology, Pune"
+            CompanyLink="https://www.aitpune.com/"
+            time="C-Pannel"
+            address="MERN"
+            work="Developed the official college website of AIT Pune, serving 2000+ students and faculty daily. Built scalable backend systems and responsive frontend interfaces to support real-time academic and institutional workflows."
+          />
+          <Details
+            position="Full Stack Developer "
+            company="SendBox"
+            CompanyLink="https://sendboxait.vercel.app/"
+            time="SupaBase"
+            address="NextJS"
+            work="Built and deployed a WhatsApp automation system used by 1700+ students and faculty, enabling automated messaging and improving communication efficiency across the institution."
+          />
+          <Details
+            position="Full Stack Developer "
+            company="CIDC – IT Department, AIT Pune  "
+            CompanyLink="https://cidc.dev/"
+            time="2026-Present"
+            address="NextJS"
+            work="Developed the official Information Technology department club website to streamline communication and information sharing among students and faculty with active user engagement (50+)."
+          />
+          <Details
+            position="Frontend Developer"
+            company="NexaBots"
+            CompanyLink="https://nexalab.io/"
+            time="2025-Present"
+            address="NextJS"
+            work="Developed a fully responsive B2B enterprise website to showcase IT services, enabling service discovery, lead generation, and improved client engagement through structured content and User Interface."
+          />
+          <Details
+            position="Frontend Developer  "
+            company="Sniffi"
+            CompanyLink="https://sniffi.in/"
+            time="2024"
+            address="ReactJS"
+            work="Worked on a home veterinary service platform focused on delivering on-demand pet healthcare, building responsive interfaces for user interaction and service accessibility."
+          />
+        </ul>
+      </div>
+    </div>
+  );
+};
 
-    return (
-        <div className='my-64'>
-            <h2 className='font-bold text-8xl mb-32 w-full text-center md:text-6xl xs:text-4xl md:mb-16'>
-                Experience
-            </h2>
-
-            <div ref={ref} className='w-[75%] mx-auto relative lg:w-[90%] md:w-full'>
-
-
-                <motion.div style={{ scaleY: scrollYProgress }} className='absolute left-9 top-0 w-[4px] h-full bg-dark origin-top
-                 dark:bg-light md:w-[2px] md:left-[30px] xs:left-[20px]' />
-
-                <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-4'>
-
-                <Details
-                        position="DevOps Intern" company="Smarden"
-                        CompanyLink="https://www.tensketch.com/"
-                        time="04/2025-Present" address='Bahadurgarh,Haryana'
-                        work="Working on implementing pipeline and automation to make development and deployment process easy"
-                    />
-                <Details
-                        position="Cloud Intern" company="Cinntra Infotech Solutions"
-                        CompanyLink="https://www.cinntra.com/"
-                        time="01/2025-04/2025" address='Noida,UP'
-                        work="Managing cloud (AWS, Azure) and on-premises servers
-✅ Deploying applications, configuring SSL certificates, and ensuring security
-✅ Designing and optimizing server architecture for performance and cost-efficiency
-✅ Writing automation scripts to streamline server management
-✅ Monitoring servers, troubleshooting backend SQL and application issues
-✅ Managing database and instance backups with a strong recovery strategy"
-                    />
-                    <Details
-                        position="UI/UX DEVELOPER" company="TenSketch (UAN:TN02D0075823)"
-                        CompanyLink="https://www.tensketch.com/"
-                        time="04/2023-05/2023" address='Bhopal'
-                        work="As an intern at Tensketch, I served as a UI and frontend developer in a collaborative team. I successfully
-                         crafted a vibrant and dynamic website for a prestigious Dance Academy, utilizing my expertise in HTML, CSS, and JavaScript."
-                    />
-                    <Details
-                        position="Traniee" company="Sheryians Coding School"
-                        CompanyLink="https://sheryians.com/"
-                        time="2022-2023" address='Bhopal'
-                        work="During my training at Sheryians Coding School, I have extensively honed my skills in 
-                        web development. From foundational languages like HTML, CSS, and JavaScript to advanced tools
-                         such as GitHub, Node.js, Express, MongoDB, Next.js, and React.js, I have gained a comprehensive
-                          understanding of the full development stack. Additionally, I have explored the realms of Socket.IO,
-                    Express Generator, GSAP, Logomotive, and Framer Motion. Currently, I am focused on mastering Next.js, 
-                      leveraging its capabilities to build efficient and scalable web applications. With a passion for continuous 
-                      learning, I am dedicated to expanding my skill set and delivering exceptional results in the ever-evolving field
-                       of web development."
-                    />
-                    <Details
-                        position="CODEBITE : The Hackathon" company="Sheryians Coding School"
-                        CompanyLink="https://sheryians.com/"
-                        time="02/2023(4-days)" address='Bhopal'
-                        work="I am proud to have secured the second position in a web development hackathon, where 
-                        I collaborated with a talented team consisting of Ankur, Anshita, and Ayush. Together, we 
-                        designed and developed a cutting-edge rental website. Leveraging Node.js for the backend,
-                         we utilized Express Generator and GitHub for seamless collaboration. Integrating Google
-                          Maps API and Google Authentication, we provided an enhanced user experience. Additionally,
-                           we incorporated captivating frontend effects using canvas and various other innovative 
-                           techniques. Our collective effort resulted in an exceptional rental website that showcased
-                            our technical prowess and teamwork skills."
-                    />
-                </ul>
-            </div>
-        </div>
-    )
-}
-
-export default Experience
+export default Experience;
