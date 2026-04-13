@@ -52,22 +52,22 @@ const Education = () => {
 
                 <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-4'>
                     <Details
-                        type="Bachlor of Technology in Electronics and Communication" 
-                        time="2020-2024"
-                        place="Oriental Institute of Science and Technology, Bhopal"
-                        info="Electronics & Communication"
+                        type="Bachlor of Engineering in Information Technology" 
+                        time="2024-2028"
+                        place="Army Institute of Technology, Pune"
+                        info="Currently in 2nd year, CGPA: 8.70 (till 3rd semester)"
                     />
                      <Details
                         type="Higher Secondry Education - CBSE" 
-                        time="2018-2019(session)"
-                        place="DAV Cent. Public School, Bahadurgarh, Haryana"
-                        info="Science Non-Medical"
+                        time="2022-2023(session)"
+                        place="St. Mary's Inter College, Lucknow Uttar Pradesh"
+                        info="Scored 90.6% (Science Non-Medical)"
                     />
                      <Details
                         type="Senior Secondry School - CBSE" 
-                        time="2016-2017(session)"
-                        place="Bal Vikas Sr. Sec. School, Bahadurgarh, Haryana"
-                        info="Basic all Subjects"
+                        time="2020-2021(session)"
+                        place="St. Mary's Inter College, Lucknow Uttar Pradesh"
+                        info="Scored 83% (Basic all subjects)"
                     />
                 </ul>
             </div>
