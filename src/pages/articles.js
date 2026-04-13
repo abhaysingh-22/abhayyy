@@ -71,57 +71,6 @@ const Experience = () => {
 
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-4">
           <Details
-            position=" 6x Major Hackathon Finalist"
-            // company="Smarden"
-            // CompanyLink="https://www.tensketch.com/"
-            time="09/2025-Present"
-            // address="Bahadurgarh,Haryana"
-            work="Global Digital Health Summit, NASA Space App Challenge, Meta Pytorch OpenEnv Hackathon, Virtual Labs Hackathon, Algofusion- PartXAI Hackathon, Mumbai Hacks"
-          />
-          <Details
-            position=" Build real-world scalable systems"
-            // company="Cinntra Infotech Solutions"
-            // CompanyLink="https://www.cinntra.com/"
-            time="Impact?"
-            // address="Noida,UP"
-            work={
-              <ul className="list-disc ml-5 space-y-2">
-                <li>
-                  <span className="font-semibold">AIT:</span> Developed the
-                  official collegewebsite of Army Institute of Technology, Pune,
-                  serving <span className="font-semibold">2000+ students</span>{" "}
-                  + faculty on a daily basis.
-                </li>
-                <li>
-                  <span className="font-semibold">Snapexx:</span> An AI-powered
-                  platform that generates images & videos from text, prompts and
-                  local images of your device, with{" "}
-                  <span className="font-semibold">25+ active users</span>{" "}
-                  creating visual content.
-                </li>
-                <li>
-                  <span className="font-semibold">SendBox:</span>Built a
-                  WhatsApp automation system used & implemented on{" "}
-                  <span className="font-semibold">1700+ students</span> and
-                  faculty members, to automate messaging workflows.
-                </li>
-                <li>
-                  <span className="font-semibold">CIDC:</span> Developed the
-                  official IT department club website for AIT, Pune, actively
-                  used by club members and faculty with{" "}
-                  <span className="font-semibold">
-                    30+ regular interactions
-                  </span>
-                  .
-                </li>
-                <li>
-                  <span className="font-semibold">Sniffi:</span>Home veterinary
-                  service platform for on-demand pet healthcare.
-                </li>
-              </ul>
-            }
-          />
-          <Details
             position=" Secetary- College Innovation & Development Club (CIDC)"
             // company="TenSketch (UAN:TN02D0075823)"
             // CompanyLink="https://www.tensketch.com/"
@@ -196,6 +145,57 @@ const Experience = () => {
             time="12/2025"
             address="Pune, Maharashtra"
             work="NextEra is a product studio where I build and experiment with web, mobile, and AI-driven tools. I focus on turning ideas into real, usable products - especially around automation and solving practical, everyday problems."
+          />
+          <Details
+            position=" Build real-world scalable systems"
+            // company="Cinntra Infotech Solutions"
+            // CompanyLink="https://www.cinntra.com/"
+            time="Impact?"
+            // address="Noida,UP"
+            work={
+              <ul className="list-disc ml-5 space-y-2">
+                <li>
+                  <span className="font-semibold">AIT:</span> Developed the
+                  official collegewebsite of Army Institute of Technology, Pune,
+                  serving <span className="font-semibold">2000+ students</span>{" "}
+                  + faculty on a daily basis.
+                </li>
+                <li>
+                  <span className="font-semibold">Snapexx:</span> An AI-powered
+                  platform that generates images & videos from text, prompts and
+                  local images of your device, with{" "}
+                  <span className="font-semibold">25+ active users</span>{" "}
+                  creating visual content.
+                </li>
+                <li>
+                  <span className="font-semibold">SendBox:</span>Built a
+                  WhatsApp automation system used & implemented on{" "}
+                  <span className="font-semibold">1700+ students</span> and
+                  faculty members, to automate messaging workflows.
+                </li>
+                <li>
+                  <span className="font-semibold">CIDC:</span> Developed the
+                  official IT department club website for AIT, Pune, actively
+                  used by club members and faculty with{" "}
+                  <span className="font-semibold">
+                    30+ regular interactions
+                  </span>
+                  .
+                </li>
+                <li>
+                  <span className="font-semibold">Sniffi:</span>Home veterinary
+                  service platform for on-demand pet healthcare.
+                </li>
+              </ul>
+            }
+          />
+          <Details
+            position=" 6x Major Hackathon Finalist"
+            // company="Smarden"
+            // CompanyLink="https://www.tensketch.com/"
+            time="09/2025-Present"
+            // address="Bahadurgarh,Haryana"
+            work="Global Digital Health Summit, NASA Space App Challenge, Meta Pytorch OpenEnv Hackathon, Virtual Labs Hackathon, Algofusion- PartXAI Hackathon, Mumbai Hacks"
           />
         </ul>
       </div>
