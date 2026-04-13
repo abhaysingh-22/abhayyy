@@ -33,24 +33,32 @@ const Skills = () => {
 
 
                 <motion.div className='flex items-center justify-center rounded-full font-semibold bg-dark text-light
-                 p-8 shadow-dark cursor-pointer dark:text-dark dark:bg-light
+                 p-4 shadow-dark cursor-pointer dark:text-dark dark:bg-light
                  lg:p-6 md:p-4 xs:text-xs xs:p-2
                  '
                     whileHover={{ scale: 1.05 }}
                 >
-                    Web
+                    Tech 
                 </motion.div>
 
                 <Skill name='HTML' x='-25vw' y='-2vw' />
-                <Skill name='css' x='-5vw' y='-10vw' />
-                <Skill name='JavaScript' x='20vw' y='6vw' />
-                <Skill name='ReactJs' x='0vw' y='12vw' />
-                <Skill name='NextJs' x='-20vw' y='-15vw' />
-                <Skill name='Node' x='15vw' y='-12vw' />
+                <Skill name='css' x='-5vw' y='-9vw' />
+                <Skill name='JavaScript' x='20vw' y='3vw' />
+                <Skill name='ReactJs' x='0vw' y='9vw' />
+                <Skill name='NextJs' x='-18vw' y='-15vw' />
+                <Skill name='Node' x='13vw' y='-12vw' />
+                <Skill name='Express' x='32vw' y='6vw' />
                 <Skill name='Web design' x='32vw' y='-5vw' />
-                <Skill name='Mongodb' x='0vw' y='-20vw' />
-                <Skill name='Firebase' x='-25vw' y='18vw' />
-                <Skill name='Mysql' x='18vw' y='18vw' />
+                <Skill name='Mongodb' x='0vw' y='-18vw' />
+                <Skill name='Supabase' x='-26vw' y='19vw' />
+                <Skill name='Mysql' x='18vw' y='24vw' />
+                <Skill name='React Native' x='-32vw' y='6vw' />
+                <Skill name='Python' x='25vw' y='-18vw' />
+                <Skill name='Git/Github' x='20vw' y='12vw' />
+                <Skill name='Tailwind' x='-8vw' y='18vw' />
+                <Skill name='AI Agents' x='-32vw' y='-8vw' />
+                <Skill name='Automation' x='32vw' y='18vw' />
+                <Skill name='Hosting' x='-17vw' y='-25vw' />
             </div>
         </>
     )

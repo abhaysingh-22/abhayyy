@@ -61,8 +61,8 @@ const about = () => {
                 studying at Army Institute of Technology in Pune, Maharashtra.
                 With a strong focus on development, I possess a diverse range of
                 skills that include HTML, CSS, JavaScript, MongoDB, Next.js,
-                React.js, Node.js, Express.js, React Native, Designing,
-                Supabase, C++, Python Git, GitHub, Linux, Automation, Hosting &
+                React.js, Node.js, Express.js, React Native, Designing, MySQL, 
+                Supabase, C++, Python, Git, GitHub, GitLab, Linux, Automation, Hosting &
                 AI Agents.
               </p>
               <p className="font-medium my-4">
