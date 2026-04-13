@@ -66,7 +66,7 @@ const NavBar = () => {
           <CustomLink href='/' title="Home" className='mr-4' />
           <CustomLink href='/about' title="About" className='mx-4' />
           <CustomLink href='/projects' title="Projects" className='mx-4' />
-          <CustomLink href='/articles' title="Achievements" className='ml-4' />
+          <CustomLink href='/articles' title="Key Highlights" className='ml-4' />
           <CustomLink href='/books' title="Blogs" className='ml-4' />
         </nav>
 

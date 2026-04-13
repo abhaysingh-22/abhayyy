@@ -21,19 +21,27 @@ const Details = ({ position, company, CompanyLink, time, address, work }) => {
         transition={{ duration: 0.5, type: "spring" }}
       >
         <h3 className="capitalize font-bold text-2xl sm:text-xl xs:text-lg">
-          {position} &nbsp;{" "}
-          <a
-            href={CompanyLink}
-            target="_blank"
-            className="text-primary dark:text-blue-700 capitalize"
-          >
-            @{company}
-          </a>
+          <span className="text-primary dark:text-blue-700">@</span>
+          {position}
+          {company && (
+            <>
+              {" "}
+              <a
+                href={CompanyLink}
+                target="_blank"
+                className="text-primary dark:text-blue-700 capitalize"
+              >
+                @{company}
+              </a>
+            </>
+          )}
         </h3>
         <span className="capitalize font-medium text-dark/75 dark:text-light-75 dark:text-light/75 xs:text-sm">
           {time} | {address}
         </span>
-        <p className="font-medium w-full md:text-sm">{work}</p>
+        <div className="font-medium w-full md:text-sm">
+          {typeof work === "string" ? <p>{work}</p> : work}
+        </div>
       </motion.div>
     </li>
   );
@@ -51,7 +59,7 @@ const Experience = () => {
     <div className="my-16">
       <TransitionEffect />
       <h2 className="font-bold text-8xl mb-32 w-full text-center md:text-6xl xs:text-4xl md:mb-16">
-        Acheivements
+        Key Highlights
       </h2>
 
       <div ref={ref} className="w-[75%] mx-auto relative lg:w-[90%] md:w-full">
@@ -63,64 +71,131 @@ const Experience = () => {
 
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-4">
           <Details
-            position="DevOps Intern"
-            company="Smarden"
-            CompanyLink="https://www.tensketch.com/"
-            time="04/2025-Present"
-            address="Bahadurgarh,Haryana"
-            work="Working on implementing pipeline and automation to make development and deployment process easy"
+            position=" 6x Major Hackathon Finalist"
+            // company="Smarden"
+            // CompanyLink="https://www.tensketch.com/"
+            time="09/2025-Present"
+            // address="Bahadurgarh,Haryana"
+            work="Global Digital Health Summit, NASA Space App Challenge, Meta Pytorch OpenEnv Hackathon, Virtual Labs Hackathon, Algofusion- PartXAI Hackathon, Mumbai Hacks"
           />
           <Details
-            position="Cloud Intern"
-            company="Cinntra Infotech Solutions"
-            CompanyLink="https://www.cinntra.com/"
-            time="01/2025-04/2025"
-            address="Noida,UP"
-            work="Managing cloud (AWS, Azure) and on-premises servers
-✅ Deploying applications, configuring SSL certificates, and ensuring security
-✅ Designing and optimizing server architecture for performance and cost-efficiency
-✅ Writing automation scripts to streamline server management
-✅ Monitoring servers, troubleshooting backend SQL and application issues
-✅ Managing database and instance backups with a strong recovery strategy"
+            position=" Build real-world scalable systems"
+            // company="Cinntra Infotech Solutions"
+            // CompanyLink="https://www.cinntra.com/"
+            time="Impact?"
+            // address="Noida,UP"
+            work={
+              <ul className="list-disc ml-5 space-y-2">
+                <li>
+                  <span className="font-semibold">AIT:</span> Developed the
+                  official collegewebsite of Army Institute of Technology, Pune,
+                  serving <span className="font-semibold">2000+ students</span>{" "}
+                  + faculty on a daily basis.
+                </li>
+                <li>
+                  <span className="font-semibold">Snapexx:</span> An AI-powered
+                  platform that generates images & videos from text, prompts and
+                  local images of your device, with{" "}
+                  <span className="font-semibold">25+ active users</span>{" "}
+                  creating visual content.
+                </li>
+                <li>
+                  <span className="font-semibold">SendBox:</span>Built a
+                  WhatsApp automation system used & implemented on{" "}
+                  <span className="font-semibold">1700+ students</span> and
+                  faculty members, to automate messaging workflows.
+                </li>
+                <li>
+                  <span className="font-semibold">CIDC:</span> Developed the
+                  official IT department club website for AIT, Pune, actively
+                  used by club members and faculty with{" "}
+                  <span className="font-semibold">
+                    30+ regular interactions
+                  </span>
+                  .
+                </li>
+                <li>
+                  <span className="font-semibold">Sniffi:</span>Home veterinary
+                  service platform for on-demand pet healthcare.
+                </li>
+              </ul>
+            }
           />
           <Details
-            position="UI/UX DEVELOPER"
-            company="TenSketch (UAN:TN02D0075823)"
-            CompanyLink="https://www.tensketch.com/"
-            time="04/2023-05/2023"
-            address="Bhopal"
-            work="As an intern at Tensketch, I served as a UI and frontend developer in a collaborative team. I successfully
-                         crafted a vibrant and dynamic website for a prestigious Dance Academy, utilizing my expertise in HTML, CSS, and JavaScript."
+            position=" Secetary- College Innovation & Development Club (CIDC)"
+            // company="TenSketch (UAN:TN02D0075823)"
+            // CompanyLink="https://www.tensketch.com/"
+            time="04/2026-Present"
+            // address="Bhopal"
+            work={
+              <ul className="list-disc ml-5 space-y-2">
+                <li>
+                  Led development-driven initiatives to build{" "}
+                  <span className="font-semibold">“Smart-AIT”</span> by
+                  digitizing and improving college systems. Coordinated and
+                  executed technical events, workshops, and hackathons. Managed
+                  end-to-end <span className="font-semibold">planning</span> and{" "}
+                  <span className="font-semibold">execution</span> of{" "}
+                  <span className="font-semibold">college projects</span> on
+                  large-scale.
+                </li>
+              </ul>
+            }
           />
           <Details
-            position="Traniee"
-            company="Sheryians Coding School"
-            CompanyLink="https://sheryians.com/"
-            time="2022-2023"
-            address="Bhopal"
-            work="During my training at Sheryians Coding School, I have extensively honed my skills in 
-                        web development. From foundational languages like HTML, CSS, and JavaScript to advanced tools
-                         such as GitHub, Node.js, Express, MongoDB, Next.js, and React.js, I have gained a comprehensive
-                          understanding of the full development stack. Additionally, I have explored the realms of Socket.IO,
-                    Express Generator, GSAP, Logomotive, and Framer Motion. Currently, I am focused on mastering Next.js, 
-                      leveraging its capabilities to build efficient and scalable web applications. With a passion for continuous 
-                      learning, I am dedicated to expanding my skill set and delivering exceptional results in the ever-evolving field
-                       of web development."
+            position=" Position of Responsibility"
+            // company="Sheryians Coding School"
+            // CompanyLink="https://sheryians.com/"
+            time="2025-2026"
+            // address="Bhopal"
+            work={
+              <ul className="list-disc ml-5 space-y-2">
+                <li>
+                  <span className="font-semibold">
+                    Joint Secretary, Open-Source Software Club:
+                  </span>{" "}
+                  Served as an organizing member for{" "}
+                  <span className="font-semibold">Innerve 10</span>, a
+                  large-scale hackathon with over{" "}
+                  <span className="font-semibold">5000+ participants</span>,
+                  where I contributed to end-to-end event execution. Managed{" "}
+                  <span className="font-semibold">logistics</span> and
+                  participant coordination, efficiently handling queries to
+                  ensure smooth operations throughout the event. Additionally,
+                  supported
+                  <span className="font-semibold">sponsor outreach</span> and
+                  collaborated with cross-functional teams to successfully
+                  deliver the hackathon.
+                </li>
+                <li>
+                  <span className="font-semibold">
+                    Joint Secretary, Debate, Dramatics and Quiz Club:
+                  </span>{" "}
+                  Organized{" "}
+                  <span className="font-semibold">
+                    Model United Nations (MUN) – III Edition
+                  </span>
+                  , a multi-institutional event with{" "}
+                  <span className="font-semibold">200+ participants</span>.
+                  Collaborated with the executive committee to{" "}
+                  <span className="font-semibold">
+                    manage scheduling, delegate outreach, and logistics planning
+                  </span>
+                  , ensuring smooth execution. Additionally, worked on{" "}
+                  <span className="font-semibold">sponsorship acquisition</span>{" "}
+                  and and <span className="font-semibold">design team</span> for
+                  event branding and promotional materials.
+                </li>
+              </ul>
+            }
           />
           <Details
-            position="CODEBITE : The Hackathon"
-            company="Sheryians Coding School"
-            CompanyLink="https://sheryians.com/"
-            time="02/2023(4-days)"
-            address="Bhopal"
-            work="I am proud to have secured the second position in a web development hackathon, where 
-                        I collaborated with a talented team consisting of Ankur, Anshita, and Ayush. Together, we 
-                        designed and developed a cutting-edge rental website. Leveraging Node.js for the backend,
-                         we utilized Express Generator and GitHub for seamless collaboration. Integrating Google
-                          Maps API and Google Authentication, we provided an enhanced user experience. Additionally,
-                           we incorporated captivating frontend effects using canvas and various other innovative 
-                           techniques. Our collective effort resulted in an exceptional rental website that showcased
-                            our technical prowess and teamwork skills."
+            position=" Building NextEra"
+            // company="Sheryians Coding School"
+            // CompanyLink="https://sheryians.com/"
+            time="12/2025"
+            address="Pune, Maharashtra"
+            work="NextEra is a product studio where I build and experiment with web, mobile, and AI-driven tools. I focus on turning ideas into real, usable products - especially around automation and solving practical, everyday problems."
           />
         </ul>
       </div>
