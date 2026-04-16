@@ -22,8 +22,8 @@ export default function BookDetail() {
   return (
     <>
     <Head>
-        <title>BookDetail</title>
-        <meta name="description" content="ditail Information about the book" />
+        <title>Project Detail</title>
+        <meta name="description" content="Detail Information about the projects" />
 
 
       </Head>
@@ -33,7 +33,7 @@ export default function BookDetail() {
         onClick={handleBackClick} 
         className="mb-4 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
       >
-        Back to Books
+        Back to Projects
       </button>
       <div className="bg-white shadow-lg rounded-lg overflow-hidden  dark:bg-dark dark:text-light">
         <div className="flex sm:flex-col w-full">
