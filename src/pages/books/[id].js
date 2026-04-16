@@ -5,10 +5,19 @@ import TransitionEffect from '@/components/TransitionEffect'
 
 export default function BookDetail() {
   const router = useRouter()
-  const { id } = router.query
+  const { id, from } = router.query
   const book = books.find(b => b.id === parseInt(id))
 
   if (!book) return <div>Loading...</div>
+
+  const handleBackClick = () => {
+    window.scrollTo(0, 0)
+    if (from === 'projects') {
+      router.push('/projects')
+    } else {
+      router.push('/books')
+    }
+  }
 
   return (
     <>
@@ -21,7 +30,7 @@ export default function BookDetail() {
       <TransitionEffect />
     <div className="container mx-auto px-4 py-8">
       <button 
-        onClick={() => router.back()} 
+        onClick={handleBackClick} 
         className="mb-4 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
       >
         Back to Books

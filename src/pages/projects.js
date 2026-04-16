@@ -57,7 +57,7 @@ const FeaturedProject = ({ type, title, summary, img, link, github, typeLink }) 
         {typeLink ? (
           <Link
             href={typeLink}
-            target="_blank"
+            scroll={false}
             className="text-primary font-medium text-xl dark:text-blue-600 xs:text-base underline cursor-pointer"
           >
             {type}
@@ -126,7 +126,7 @@ const Project = ({ title, type, img, link, github, typeLink }) => {
         {typeLink ? (
           <Link
             href={typeLink}
-            target="_blank"
+            scroll={false}
             className="text-primary font-medium text-xl dark:text-primaryDark lg:text-lg md:text-base underline cursor-pointer"
           >
             {type}
@@ -189,7 +189,7 @@ const projects = () => {
                 link="https://www.aitpune.com/"
                 github="https://github.com/CIDC-PROJECTS/John-Snow"
                 type="Blog"
-                typeLink="/"
+                typeLink="/books/1?from=projects"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
@@ -200,7 +200,7 @@ const projects = () => {
                 link="https://sendboxait.vercel.app/"
                 github="https://github.com/Smart-AIT/automation"
                 type="Blog"
-                typeLink="/"
+                typeLink="/books/2?from=projects"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
@@ -211,7 +211,7 @@ const projects = () => {
                 link="/"
                 github="https://github.com/abhaysingh-22/abhayyy"
                 type="Blog"
-                typeLink="/"
+                typeLink="/books/3?from=projects"
               />
             </div>
 
@@ -223,7 +223,7 @@ const projects = () => {
                 link="https://www.snapexx.tech/"
                 github="https://github.com/abhaysingh-22/websnapexx"
                 type="Blog"
-                typeLink="/"
+                typeLink="/books/4?from=projects"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
@@ -233,7 +233,7 @@ const projects = () => {
                 link="https://www.cidc.dev/"
                 github="https://github.com/Smart-AIT/cidc_website"
                 type="Blog"
-                typeLink="/"
+                typeLink="/books/5?from=projects"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
@@ -243,7 +243,7 @@ const projects = () => {
                 link="https://tudu-vibe.vercel.app/"
                 github="https://github.com/abhaysingh-22/ToDo_React_App"
                 type="Blog"
-                typeLink="/"
+                typeLink="/books/6?from=projects"
               />
             </div>
             <div className="col-span-12">
@@ -254,7 +254,7 @@ const projects = () => {
                 link="https://trip-now-phi.vercel.app/"
                 github="https://github.com/abhaysingh-22/TripNow"
                 type="Blog"
-                typeLink="/"
+                typeLink="/books/7?from=projects"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
@@ -264,7 +264,7 @@ const projects = () => {
                 link="https://ecotravel-omega.vercel.app/"
                 github="https://github.com/abhaysingh-22/CEP"
                 type="Blog"
-                typeLink="/"
+                typeLink="/books/8?from=projects"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
@@ -274,7 +274,7 @@ const projects = () => {
                 link="https://agent-lac.vercel.app/"
                 github="https://github.com/abhaysingh-22/Agent"
                 type="Blog"
-                typeLink="/"
+                typeLink="/books/9?from=projects"
               />
             </div>
             <div className="col-span-12">
@@ -285,7 +285,7 @@ const projects = () => {
                 link="https://huggingface.co/spaces/abhaysingh-22/openenv-customer-support"
                 github="https://github.com/abhaysingh-22/OpenEnvv"
                 type="Blog"
-                typeLink="/"
+                typeLink="/books/10?from=projects"
               />
             </div>
             {/* <div className="col-span-6 sm:col-span-12">
@@ -305,7 +305,7 @@ const projects = () => {
                 link="https://www.sniffi.in/"
                 github="https://github.com/abhaysingh-22/sniffi-frontend"
                 type="Blog"
-                typeLink="/"
+                typeLink="/books/11?from=projects"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
@@ -315,7 +315,7 @@ const projects = () => {
                 link="/"
                 github="https://github.com/abhaysingh-22/nexobots"
                 type="Blog"
-                typeLink="/"
+                typeLink="/books/12?from=projects"
               />
             </div>
             <div className="col-span-12">
@@ -326,7 +326,7 @@ const projects = () => {
                 link="https://drive.google.com/drive/folders/1TVE5kiRWbKfDDrAM0mhtTi6JDVJmipXA?usp=drive_link"
                 github="https://github.com/Pradeep-kumar-py/sih-farmer-app"
                 type="Blog"
-                typeLink="/"
+                typeLink="/books/1?from=projects"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
@@ -336,7 +336,7 @@ const projects = () => {
                 link="https://drive.google.com/drive/folders/1TVE5kiRWbKfDDrAM0mhtTi6JDVJmipXA?usp=drive_link"
                 github="https://github.com/abhaysingh-22/SnapExx"
                 type="Blog"
-                typeLink="/"
+                typeLink="/books/4?from=projects"
               />
             </div>
           </div>

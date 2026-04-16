@@ -14,7 +14,7 @@ const Books = () => {
       <TransitionEffect />
 
     <div className="container mx-auto px-4 py-8">
-      <h1 className="text-3xl font-bold mb-6 text-center">Our Book Collection</h1>
+      <h1 className="text-3xl font-bold mb-6 text-center">Detail Project Descriptions</h1>
       <div className="grid grid-cols-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6">
         {books.map((book) => (
           <BookCard
