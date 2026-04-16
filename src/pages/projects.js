@@ -5,12 +5,20 @@ import Link from "next/link";
 import React from "react";
 import Image from "next/image";
 import { GithubIcon } from "@/components/Icons";
-import project1 from "../../public/images/projects/p1.jpg";
-import project2 from "../../public/images/projects/p2.jpg";
-import project3 from "../../public/images/projects/p3.jpg";
-import project4 from "../../public/images/projects/p4.jpg";
-import project5 from "../../public/images/projects/renter.png";
-import project6 from "../../public/images/projects/dance.png";
+import project1 from "../../public/images/projects/ait.png";
+import project2 from "../../public/images/projects/cidc.png";
+import project3 from "../../public/images/projects/ecotravel.png";
+import project4 from "../../public/images/projects/meta.png";
+import project5 from "../../public/images/projects/nexabots.png";
+import project6 from "../../public/images/projects/profolio.png";
+import project7 from "../../public/images/projects/ragent.png";
+import project8 from "../../public/images/projects/sendbox.png";
+import project9 from "../../public/images/projects/snapexx.png";
+import project10 from "../../public/images/projects/sniffi.png";
+import project11 from "../../public/images/projects/todo.png";
+import project12 from "../../public/images/projects/tripnow.png";
+import project13 from "../../public/images/projects/SIH.png";
+import project14 from "../../public/images/projects/snapexxApp.png";
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -187,7 +195,7 @@ const projects = () => {
             <div className="col-span-6 sm:col-span-12">
               <Project
                 title="SendBox"
-                img={project3}
+                img={project8}
                 summary="/"
                 link="https://sendboxait.vercel.app/"
                 github="https://github.com/Smart-AIT/automation"
@@ -198,7 +206,7 @@ const projects = () => {
             <div className="col-span-6 sm:col-span-12">
               <Project
                 title="Personal Portfolio"
-                img={project4}
+                img={project6}
                 summary="/"
                 link="/"
                 github="https://github.com/abhaysingh-22/abhayyy"
@@ -210,7 +218,7 @@ const projects = () => {
             <div className="col-span-12">
               <FeaturedProject
                 title="Snapexx"
-                img={project2}
+                img={project9}
                 summary="Snapexx is an AI-powered platform that allows users to generate and enhance images and videos from text prompts and local images. It offers features like high-quality image generation, video creation, image editing, professional content generation for social platforms, and image comparison—all designed to simplify creative workflows."
                 link="https://www.snapexx.tech/"
                 github="https://github.com/abhaysingh-22/websnapexx"
@@ -221,7 +229,7 @@ const projects = () => {
             <div className="col-span-6 sm:col-span-12">
               <Project
                 title="CIDC"
-                img={project5}
+                img={project2}
                 link="https://www.cidc.dev/"
                 github="https://github.com/Smart-AIT/cidc_website"
                 type="Blog"
@@ -231,7 +239,7 @@ const projects = () => {
             <div className="col-span-6 sm:col-span-12">
               <Project
                 title="DayStacks"
-                img={project6}
+                img={project11}
                 link="https://tudu-vibe.vercel.app/"
                 github="https://github.com/abhaysingh-22/ToDo_React_App"
                 type="Blog"
@@ -241,7 +249,7 @@ const projects = () => {
             <div className="col-span-12">
               <FeaturedProject
                 title="TripNow"
-                img={project2}
+                img={project12}
                 summary="TripNow is a full-stack ride-hailing application inspired by other Riding applications, built with modern web technologies (MERN-stack). It allows users to book rides, captains to accept and manage rides, and includes real-time tracking, payment integration, location services & many more."
                 link="https://trip-now-phi.vercel.app/"
                 github="https://github.com/abhaysingh-22/TripNow"
@@ -252,7 +260,7 @@ const projects = () => {
             <div className="col-span-6 sm:col-span-12">
               <Project
                 title="EcoTravel"
-                img={project6}
+                img={project3}
                 link="https://ecotravel-omega.vercel.app/"
                 github="https://github.com/abhaysingh-22/CEP"
                 type="Blog"
@@ -262,7 +270,7 @@ const projects = () => {
             <div className="col-span-6 sm:col-span-12">
               <Project
                 title="Resturant Agent"
-                img={project6}
+                img={project7}
                 link="https://agent-lac.vercel.app/"
                 github="https://github.com/abhaysingh-22/Agent"
                 type="Blog"
@@ -272,7 +280,7 @@ const projects = () => {
             <div className="col-span-12">
               <FeaturedProject
                 title="Customer-Support-Agent"
-                img={project2}
+                img={project4}
                 summary="This agentic application simulates real-world customer support workflows, testing decision accuracy, policy compliance, and multi-step reasoning using constrained tools. Built with FastAPI and Docker, it enables realistic evaluation of AI agents in production-like environments."
                 link="https://huggingface.co/spaces/abhaysingh-22/openenv-customer-support"
                 github="https://github.com/abhaysingh-22/OpenEnvv"
@@ -280,7 +288,7 @@ const projects = () => {
                 typeLink="/"
               />
             </div>
-            <div className="col-span-6 sm:col-span-12">
+            {/* <div className="col-span-6 sm:col-span-12">
               <Project
                 title="MusicSystem"
                 img={project6}
@@ -289,11 +297,21 @@ const projects = () => {
                 type="Blog"
                 typeLink="/"
               />
+            </div> */}
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                title="Sniffi"
+                img={project10}
+                link="https://www.sniffi.in/"
+                github="https://github.com/abhaysingh-22/sniffi-frontend"
+                type="Blog"
+                typeLink="/"
+              />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
                 title="Nexabots"
-                img={project6}
+                img={project5}
                 link="/"
                 github="https://github.com/abhaysingh-22/nexobots"
                 type="Blog"
@@ -303,7 +321,7 @@ const projects = () => {
             <div className="col-span-12">
               <FeaturedProject
                 title="Farmer's Assistant App"
-                img={project2}
+                img={project13}
                 summary="This is a cross-platform mobile application that provides farmers with AI-driven agricultural guidance through a real-time chatbot supporting both voice and text interactions. Built using React Native and Expo, it integrates speech-to-text and text-to-speech capabilities to deliver an accessible and seamless user experience."
                 link="https://drive.google.com/drive/folders/1TVE5kiRWbKfDDrAM0mhtTi6JDVJmipXA?usp=drive_link"
                 github="https://github.com/Pradeep-kumar-py/sih-farmer-app"
@@ -313,18 +331,8 @@ const projects = () => {
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title="Sniffi"
-                img={project6}
-                link="https://www.sniffi.in/"
-                github="https://github.com/abhaysingh-22/sniffi-frontend"
-                type="Blog"
-                typeLink="/"
-              />
-            </div>
-            <div className="col-span-6 sm:col-span-12">
-              <Project
                 title="Snapexx Mobile App"
-                img={project6}
+                img={project14}
                 link="https://drive.google.com/drive/folders/1TVE5kiRWbKfDDrAM0mhtTi6JDVJmipXA?usp=drive_link"
                 github="https://github.com/abhaysingh-22/SnapExx"
                 type="Blog"
