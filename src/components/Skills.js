@@ -59,6 +59,7 @@ const Skills = () => {
                 <Skill name='AI Agents' x='-32vw' y='-8vw' />
                 <Skill name='Automation' x='32vw' y='18vw' />
                 <Skill name='Hosting' x='-17vw' y='-25vw' />
+                <Skill name='Docker' x='-0vw' y='28vw' />
             </div>
         </>
     )
