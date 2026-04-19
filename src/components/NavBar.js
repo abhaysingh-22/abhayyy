@@ -110,26 +110,26 @@ const NavBar = () => {
               <CustomMobileLink href='/' title="Home" className='' toggle={handleClick} />
               <CustomMobileLink href='/about' title="About" className='' toggle={handleClick} />
               <CustomMobileLink href='/projects' title="Projects" className='' toggle={handleClick} />
-              <CustomMobileLink href='/articles' title="Articles" className='' toggle={handleClick} />
-              <CustomMobileLink href='/books' title="Books" className='' toggle={handleClick} />
+              <CustomMobileLink href='/articles' title="Key Highlights" className='' toggle={handleClick} />
+              <CustomMobileLink href='/books' title="Blogs" className='' toggle={handleClick} />
             </nav>
 
 
             <nav className='flex items-center justify-center flex-wrap mt-2'>
-              <motion.a href="https://twitter.com" target={"_blank"}
+              <motion.a href="https://x.com/build_nextera" target={"_blank"}
                 whileHover={{ y: -2 }}
                 whileTap={{ scale: 0.9 }}
                 className="w-6 mr sm:mx-1"
               ><TwitterIcon />
               </motion.a>
-              <motion.a href="https://github.com/sidharthhhh" target={"_blank"} className="w-6 mx-3 bg-light rounded-full dark:bg-dark sm:mx-" whileHover={{ y: -2 }}
+              <motion.a href="https://github.com/abhaysingh-22" target={"_blank"} className="w-6 mx-3 bg-light rounded-full dark:bg-dark sm:mx-" whileHover={{ y: -2 }}
                 whileTap={{ scale: 0.9 }} ><GithubIcon /></motion.a>
-              <motion.a href="https://www.linkedin.com/in/sidharth-shukla-a7a32320a/" target={"_blank"} className="w-6 mx-3 sm:mx-" whileHover={{ y: -2 }}
+              <motion.a href="https://www.linkedin.com/in/abhaysingh22/" target={"_blank"} className="w-6 mx-3 sm:mx-" whileHover={{ y: -2 }}
                 whileTap={{ scale: 0.9 }} ><LinkedInIcon /></motion.a>
-              <motion.a href="https://www.pinterest.ca/swayam1044/" target={"_blank"} className="w-6 mx-3 bg-light rounded-full sm:mx-" whileHover={{ y: -2 }}
-                whileTap={{ scale: 0.9 }} ><PinterestIcon /></motion.a>
-              <motion.a href="https://dribbble.com/sidharthhhhh" target={"_blank"} className="w-6 ml-3 sm:mx-" whileHover={{ y: -2 }}
-                whileTap={{ scale: 0.9 }} ><DribbbleIcon /></motion.a>
+              <motion.a href="https://peerlist.io/abhaysingh6575" target={"_blank"} className="w-6 mx-3 bg-light rounded-full sm:mx-" whileHover={{ y: -2 }}
+                whileTap={{ scale: 0.9 }} ><img src="https://peerlist.io/favicon_512.png" alt="Peerlist" className="w-full h-auto" /></motion.a>
+              <motion.a href="https://codolio.com/profile/abhaysingh22_" target={"_blank"} className="w-6 ml-3 sm:mx-" whileHover={{ y: -2 }}
+                whileTap={{ scale: 0.9 }} ><img src="https://codolio.com/codolio_assets/codolio.svg" alt="Codolio" className="w-full h-auto" /></motion.a>
 
               <button onClick={() => setMode(mode === "light" ? "dark" : "light")}
                 className={`ml-3 flex items-center justify-center rounded-full p-1 ${mode === "light" ? "bg-dark text-light" : "bg-light text-dark"}`}
