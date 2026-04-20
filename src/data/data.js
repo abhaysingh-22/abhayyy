@@ -888,7 +888,14 @@ This experience shifted my mindset from just building applications to thinking l
     image: project15,
     description:
       "In this blog you will get to know about the problem statements of various hackathons in which i have been the finalist. ",
-    content: `<p>
+    content: `
+    <p>
+⚙️ Won PartXAI Hackathon:-
+<br>
+The problem focuses on fixing the chaotic communication system in real-world hospitals, where doctor–patient conversations happen in multiple languages (like Hindi, Marathi, and English) and important medical information is often lost, misinterpreted, or poorly documented. The goal is to build a voice-driven AI system that can capture these noisy, multilingual conversations in real time, accurately convert them into text, and then transform the unstructured dialogue into clean, structured medical data such as symptoms, duration, diagnosis, and medications. This structured data must be reliably stored and linked to a unique patient ID, enabling doctors to access past records instantly, reduce errors from manual note-taking, and significantly improve efficiency and accuracy in clinical workflows.
+</p>
+<br>
+<p>
     🔥 Global Digital Health Summit:-
     <br>
     The idea was to Built an AI-driven mental health support system focused on proactive and personalized care. Features include emotion detection through voice and behavior, conversational AI guidance, mood-based recommendations, and crisis intervention with SOS alerts. Integrated gamification and insights dashboard to improve engagement and track mental well-being over time.
@@ -913,13 +920,6 @@ Developed a customer support AI agent within a highly constrained evaluation env
 🧠 Virtual Labs Hackathon:-
 <br>
 Designed an intelligent classroom HVAC system to optimize temperature and energy usage based on real-time occupancy and conditions. Aimed to reduce energy waste, improve thermal comfort, and provide measurable insights for efficient classroom management.
-</p>
-<br>
-
-<p>
-⚙️ Algofusion PartXAI Hackathon:-
-<br>
-Participated in an AI-focused hackathon exploring innovative problem-solving approaches using data-driven models and system design under competitive constraints.
 </p>
 <br>
 
