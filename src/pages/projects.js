@@ -19,6 +19,7 @@ import project11 from "../../public/images/projects/todo.png";
 import project12 from "../../public/images/projects/tripnow.png";
 import project13 from "../../public/images/projects/SIH.png";
 import project14 from "../../public/images/projects/snapexxApp.png";
+import project15 from "../../public/images/projects/hackathon.jpg";
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -97,7 +98,7 @@ const FeaturedProject = ({ type, title, summary, img, link, github, typeLink }) 
   );
 };
 
-const Project = ({ title, type, img, link, github, typeLink }) => {
+const Project = ({ title, type, img, link, github, typeLink, imageClassName }) => {
   return (
     <article
       className="w-full flex flex-col items-center justify-center rounded-2xl border border-solid border-dark
@@ -116,7 +117,7 @@ const Project = ({ title, type, img, link, github, typeLink }) => {
         <FramerImage
           src={img}
           alt={title}
-          className="w-full h-auto"
+          className={imageClassName || "w-full h-auto"}
           whileHover={{ scale: 1.05 }}
           transition={{ duration: 0.2 }}
         />
@@ -337,6 +338,17 @@ const projects = () => {
                 github="https://github.com/abhaysingh-22/SnapExx"
                 type="Blog"
                 typeLink="/books/4?from=projects"
+              />
+            </div>
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                title="Hackathons"
+                img={project15}
+                link="/books/16?from=projects"
+                github="https://github.com/PankajKumar17/partex-ai-hackathon"
+                type="Blog"
+                typeLink="/books/16?from=projects"
+                imageClassName="w-3/4 h-auto mx-auto"
               />
             </div>
           </div>
