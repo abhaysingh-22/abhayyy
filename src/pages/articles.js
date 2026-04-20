@@ -220,12 +220,45 @@ const Experience = () => {
               }
             />
             <Details
-              position=" 6x Major Hackathon Finalist"
+              position="Hackathon"
               // company="Smarden"
               // CompanyLink="https://www.tensketch.com/"
               time="09/2025-Present"
               // address="Bahadurgarh,Haryana"
-              work="Global Digital Health Summit, NASA Space App Challenge, Meta Pytorch OpenEnv Hackathon, Virtual Labs Hackathon, Algofusion- PartXAI Hackathon, Mumbai Hacks"
+              work={
+                <ul>
+                  <li>
+                    Won Algofusion-
+                    <a
+                      href="https://partex.ai/en"
+                      target="_blank"
+                      className="text-primary dark:text-blue-700"
+                    >
+                      <span className="font-semibold"> PartXAI Hackathon </span>
+                    </a>
+                    where we built a{" "}
+                    <span className="font-semibold">
+                      voice-enabled AI system{" "}
+                    </span>{" "}
+                    that captures multilingual doctor-patient conversations and
+                    converts them into structured medical data in real time &
+                    system with organized symptoms, diagnosis, and
+                    prescriptions, and store them with a patient ID to{" "}
+                    <span className="font-semibold">
+                      eliminate manual errors and chaotic hospital workflows.
+                    </span>
+                  </li>
+                </ul>
+              }
+            />
+
+            <Details
+              position=" 5x Major Hackathon Finalist"
+              // company="Smarden"
+              // CompanyLink="https://www.tensketch.com/"
+              time="09/2025-Present"
+              // address="Bahadurgarh,Haryana"
+              work="Global Digital Health Summit, NASA Space App Challenge, Meta Pytorch OpenEnv Hackathon, Virtual Labs Hackathon, Mumbai Hacks"
             />
           </ul>
         </div>
