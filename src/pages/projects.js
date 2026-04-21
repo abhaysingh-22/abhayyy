@@ -286,7 +286,7 @@ const projects = () => {
                 link="https://huggingface.co/spaces/abhaysingh-22/openenv-customer-support"
                 github="https://github.com/abhaysingh-22/OpenEnvv"
                 type="Blog"
-                typeLink="/books/10?from=projects"
+                typeLink="/books/11?from=projects"
               />
             </div>
             {/* <div className="col-span-6 sm:col-span-12">
@@ -306,7 +306,7 @@ const projects = () => {
                 link="https://www.sniffi.in/"
                 github="https://github.com/abhaysingh-22/sniffi-frontend"
                 type="Blog"
-                typeLink="/books/11?from=projects"
+                typeLink="/books/12?from=projects"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
@@ -316,7 +316,7 @@ const projects = () => {
                 link="/"
                 github="https://github.com/abhaysingh-22/nexobots"
                 type="Blog"
-                typeLink="/books/12?from=projects"
+                typeLink="/books/13?from=projects"
               />
             </div>
             <div className="col-span-12">
@@ -327,7 +327,7 @@ const projects = () => {
                 link="https://drive.google.com/drive/folders/1TVE5kiRWbKfDDrAM0mhtTi6JDVJmipXA?usp=drive_link"
                 github="https://github.com/Pradeep-kumar-py/sih-farmer-app"
                 type="Blog"
-                typeLink="/books/1?from=projects"
+                typeLink="/books/14?from=projects"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
@@ -337,7 +337,7 @@ const projects = () => {
                 link="https://drive.google.com/drive/folders/1TVE5kiRWbKfDDrAM0mhtTi6JDVJmipXA?usp=drive_link"
                 github="https://github.com/abhaysingh-22/SnapExx"
                 type="Blog"
-                typeLink="/books/4?from=projects"
+                typeLink="/books/15?from=projects"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
