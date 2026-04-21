@@ -114,24 +114,24 @@ const Experience = () => {
                 <ul className="list-disc ml-5 space-y-2">
                   <li>
                     <span className="font-semibold">
-                      Joint Secretary, Open-Source Software Club:
+                      Development Head - College Innovation & Development Club:​ ​​​​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​
                     </span>{" "}
-                    Served as an organizing member for{" "}
-                    <span className="font-semibold">Innerve 10</span>, a
-                    large-scale hackathon with over{" "}
-                    <span className="font-semibold">5000+ participants</span>,
-                    where I contributed to end-to-end event execution. Managed{" "}
-                    <span className="font-semibold">logistics</span> and
-                    participant coordination, efficiently handling queries to
-                    ensure smooth operations throughout the event. Additionally,
-                    supported
-                    <span className="font-semibold">sponsor outreach</span> and
-                    collaborated with cross-functional teams to successfully
-                    deliver the hackathon.
+                    <span className="font-semibold"> Mentored and guided</span>{" "}
+                    peers, improving onboarding efficiency and overall team
+                    productivity.{" "}
+                    <span className="font-semibold">Led a team</span> of
+                    developers, managing sprint planning, code reviews, and
+                    production deployments. Contributed to architecting and
+                    delivering{" "}
+                    <span className="font-semibold">
+                      AIT’s official tech infrastructure
+                    </span>{" "}
+                    and club product roadmap.
                   </li>
                   <li>
                     <span className="font-semibold">
-                      Joint Secretary, Debate, Dramatics and Quiz Club:
+                      Joint Secretary & Sponsorship Head - Debate, Dramatics &
+                      Quiz Club:
                     </span>{" "}
                     Organized{" "}
                     <span className="font-semibold">
