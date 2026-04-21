@@ -187,7 +187,7 @@ const projects = () => {
                 title="Army Institute of Technology"
                 img={project1}
                 summary="Led the development and deployment of the official website for Army Institute of Technology (AIT), Pune, serving 2000+ students and faculty daily. Designed a scalable MERN-based system to streamline academic information, announcements, and institutional workflows with a focus on performance and usability."
-                link="https://www.aitpune.com/"
+                link="https://www.aitpune.edu.in/"
                 github="https://github.com/CIDC-PROJECTS/John-Snow"
                 type="Blog"
                 typeLink="/books/1?from=projects"
