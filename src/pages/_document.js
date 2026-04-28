@@ -4,7 +4,25 @@ import Script from 'next/script'
 export default function Document() {
   return (
     <Html lang="en">
-      <Head />
+      <Head>
+        {/* Google Analytics */}
+        <Script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-ETDK6SF4ZN"
+          strategy="afterInteractive"
+        />
+        <Script
+          id="google-analytics"
+          strategy="afterInteractive"
+        >
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-ETDK6SF4ZN');
+          `}
+        </Script>
+      </Head>
       <body>
         <Script id='theme-swicher' strategy='beforeInteractive'>
           {`
