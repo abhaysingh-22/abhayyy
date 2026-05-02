@@ -360,7 +360,7 @@ const projects = () => {
                 link="https://drive.google.com/drive/folders/1TVE5kiRWbKfDDrAM0mhtTi6JDVJmipXA?usp=drive_link"
                 github="https://github.com/Smart-AIT/sendboxapp"
                 type="Blog"
-                typeLink="/books/14?from=projects"
+                typeLink="/books/17?from=projects"
               />
             </div>
           </div>
