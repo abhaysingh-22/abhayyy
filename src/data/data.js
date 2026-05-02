@@ -13,6 +13,7 @@ import project12 from "../../public/images/projects/tripnow.png";
 import project13 from "../../public/images/projects/SIH.png";
 import project14 from "../../public/images/projects/snapexxApp.png";
 import project15 from "../../public/images/projects/hackathon.jpg";
+import project16 from "../../public/images/projects/sendboxapp.jpg";
 
 export const books = [
   {
@@ -734,7 +735,7 @@ NexaBots taught me that real-world projects are rarely perfect. You don’t alwa
   },
   {
     id: 14,
-    author: "React Native expo",
+    author: "Gemini, React Native expo",
     title: "Farmer Assistant App",
     image: project13,
     description:
@@ -747,27 +748,28 @@ NexaBots taught me that real-world projects are rarely perfect. You don’t alwa
    <p>
 This project was my first step into mobile development using React Native with Expo. It wasn’t just about learning a new framework—it was about building something meaningful for a real-world problem.
 </p>
-   <br>
+<br>
 
-   <p>
+<p>
 The idea came from the Smart India Hackathon (SIH) problem statement: AI-Based Crop Recommendation for Farmers. The core issue was clear—farmers often rely on static information or guesswork for crop decisions, pest control, and resource planning. There is a lack of accessible, personalized, and real-time guidance.
 </p>
-   <br>
+<br>
 
-   <p>
+<p>
 We wanted to change that.
 
 The solution we built was a mobile application focused on providing AI-driven agricultural support in a simple and accessible way. The system was designed with a strong emphasis on usability, especially for farmers who may not be comfortable with complex interfaces.
-</p>
-   <br>
 
-   <p>
+</p>
+<br>
+
+<p>
 One of the key features was a voice-first interaction system, where users could directly interact with the application through speech instead of typing. This reduces friction and makes the system more inclusive. Along with this, we integrated features like AI-based crop recommendations, pest and disease detection through images, and real-time weather-based alerts.
 </p>
-   <br>
+<br>
 
-   <p>
-The application also included a tructured farm calendar, helping farmers plan irrigation, fertilization, and other activities throughout the season. Another important component was the AI mood coach-like system for farming decisions—providing recommendations, reminders, and guidance based on user inputs and environmental conditions.
+<p>
+The application also included a structured farm calendar, helping farmers plan irrigation, fertilization, and other activities throughout the season. Another important component was the AI mood coach-like system for farming decisions—providing recommendations, reminders, and guidance based on user inputs and environmental conditions.
 <br>
 We also explored features like:
 <br>
@@ -779,35 +781,105 @@ We also explored features like:
 <br>
 * Market price insights and government scheme awareness
 </p>
-   <br>
+<br>
 
-   <p>
+<p>
 The goal was not just to build an app, but to create a complete digital assistant for farmers.
 </p>
-   <br>
+<br>
 
-   <p>
+<p>
 From a technical perspective, this project helped me understand how to build cross-platform applications, manage navigation, handle state, and design mobile-first user experiences. It was my first exposure to structuring a mobile app beyond just UI—thinking in terms of flows, usability, and real users.
 </p>
-   <br>
+<br>
 
-   <p>
+<p>
 We worked on this project as a team of two. Although we didn’t qualify for the final round, we were selected in Round 1, where we presented both the idea and a working demo of the application. At that stage, the app was around 60% complete—core UI and features were implemented, but dynamic integrations like APIs and AI models were still in progress.
 </p>
-   <br>
+<br>
 
-   <p>
+<p>
 Even though the project wasn’t fully deployed, it served its purpose.
 </p>
-   <br>
+<br>
 
-   <p>
+<p>
 This project taught me how to convert an idea into a working product, how to think from a user’s perspective, and how to build UI friendly applications that are not just functional but meaningful.
-  </p>`,
+</p>
+<br>
+
+<p>
+<b>Tech Stack Used</b>
+<br>
+<br>
+<b>Frontend Framework</b>
+<br>
+React Native (v0.79.5) - Cross-platform mobile app development
+<br>
+Expo (v54.0.0) - Managed React Native framework with tooling
+<br>
+Expo Router (v5.1.6) - File-based routing for React Native
+<br>
+<br>
+<b>UI & Styling</b>
+<br>
+NativeWind (v4.1.23) - Tailwind CSS for React Native
+<br>
+Tailwind CSS (v3.4.17) - Utility-first CSS framework
+<br>
+Expo Vector Icons - Icon library
+<br>
+React Navigation (v7.1.6) - Navigation library with bottom tabs
+<br>
+<br>
+<b>Language & Build</b>
+<br>
+TypeScript (~5.8.3) - Type-safe JavaScript
+<br>
+Babel (^7.25.2) - JavaScript compiler
+<br>
+Metro - Bundler for React Native
+<br>
+<br>
+<b>APIs & AI</b>
+<br>
+Google Generative AI (^0.24.1) - Gemini API for AI features
+<br>
+Google GenAI (^1.20.0) - Alternative Google AI SDK
+<br>
+Microsoft Cognitive Services Speech SDK (^1.45.0) - Speech-to-text functionality
+<br>
+<br>
+<b>Native Features</b>
+<br>
+Expo Location - GPS/location services
+<br>
+Expo Speech - Text-to-speech
+<br>
+Expo Image Picker - Image selection
+<br>
+Expo Secure Store - Secure data storage
+<br>
+React Native Maps (v1.20.1) - Map integration
+<br>
+React Native WebView (v13.13.5) - Web content display
+<br>
+<br>
+<b>State Management</b>
+<br>
+Zustand (^5.0.8) - Lightweight state management
+<br>
+<br>
+<b>Data & Storage</b>
+<br>
+Async Storage (v2.1.2) - Local data persistence
+<br>
+Axios (^1.12.2) - HTTP client
+</p>`,
   },
   {
     id: 15,
-    author: "React Native expo",
+    author: "Supabase, Vertex AI, React Native expo",
     title: "Snapexx App",
     image: project14,
     description:
@@ -882,6 +954,26 @@ This experience shifted my mindset from just building applications to thinking l
   </p>`,
   },
   {
+    id: 17,
+    author: "React Native expo, Supabase, Corn-job, WaSenderAPI",
+    title: "SendBox App",
+    image: project16,
+    description:
+      "This is the cross platform mobile version of SendBox web application. ",
+    content: `
+   <p> The SendBox mobile application was developed as a natural extension of our institution’s needs after successfully building the web version. </p> 
+   <br> 
+   <p> Rather than reinventing the system, we focused on bringing the same core functionality, purpose, and user experience to mobile devices. The tech stack remained largely consistent with the web version, with one major shift—adopting React Native with Expo to enable cross-platform mobile development. 
+   </p> 
+   <br> 
+   <p> This allowed us to maintain continuity in development while ensuring the application could deliver a seamless and responsive experience on mobile. The goal and underlying idea behind SendBox remained unchanged: to provide an efficient, accessible, and user-friendly solution tailored to institutional requirements. </p> <br> <p> For a deeper understanding of the concept, features, and overall vision, you can explore the web version blog here: 
+   <br> 
+   <a href="/books/2" style="color: red; text-decoration: underline;">Read SendBox Web Version Blog
+   </a> 
+   </p>
+          `,
+  },
+  {
     id: 16,
     author: "Problem Statements",
     title: "Hackathons",
@@ -890,7 +982,7 @@ This experience shifted my mindset from just building applications to thinking l
       "In this blog you will get to know about the problem statements of various hackathons in which i have been the finalist. ",
     content: `
     <p>
-⚙️ Won PartXAI Hackathon:-
+⚙️ Won PARTEX.AI Hackathon:-
 <br>
 The problem focuses on fixing the chaotic communication system in real-world hospitals, where doctor–patient conversations happen in multiple languages (like Hindi, Marathi, and English) and important medical information is often lost, misinterpreted, or poorly documented. The goal is to build a voice-driven AI system that can capture these noisy, multilingual conversations in real time, accurately convert them into text, and then transform the unstructured dialogue into clean, structured medical data such as symptoms, duration, diagnosis, and medications. This structured data must be reliably stored and linked to a unique patient ID, enabling doctors to access past records instantly, reduce errors from manual note-taking, and significantly improve efficiency and accuracy in clinical workflows.
 </p>
