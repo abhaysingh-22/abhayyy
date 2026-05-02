@@ -2,13 +2,21 @@ import { useRouter } from 'next/router'
 import { books } from '../../data/data'
 import Head from 'next/head'
 import TransitionEffect from '@/components/TransitionEffect'
+import { useState, useEffect } from 'react'
 
 export default function BookDetail() {
   const router = useRouter()
   const { id, from } = router.query
-  const book = books.find(b => b.id === parseInt(id))
+  const [book, setBook] = useState(null)
 
-  if (!book) return <div>Loading...</div>
+  useEffect(() => {
+    if (router.isReady && id) {
+      const foundBook = books.find(b => b.id === parseInt(id))
+      setBook(foundBook)
+    }
+  }, [router.isReady, id])
+
+  if (!router.isReady || !book) return <div>Loading...</div>
 
   const handleBackClick = () => {
     window.scrollTo(0, 0)
