@@ -234,7 +234,7 @@ const Experience = () => {
                       target="_blank"
                       className="text-primary dark:text-blue-700"
                     >
-                      <span className="font-semibold"> PartXAI Hackathon </span>
+                      <span className="font-semibold"> PARTEX.AI Hackathon </span>
                     </a>
                     where we built a{" "}
                     <span className="font-semibold">
