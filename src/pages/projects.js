@@ -20,6 +20,7 @@ import project12 from "../../public/images/projects/tripnow.png";
 import project13 from "../../public/images/projects/SIH.png";
 import project14 from "../../public/images/projects/snapexxApp.png";
 import project15 from "../../public/images/projects/hackathon.jpg";
+import project16 from "../../public/images/projects/sendboxapp.jpg";
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -349,6 +350,17 @@ const projects = () => {
                 type="Blog"
                 typeLink="/books/16?from=projects"
                 imageClassName="w-3/4 h-auto mx-auto"
+              />
+            </div>
+            <div className="col-span-12">
+              <FeaturedProject
+                title="SendBox App"
+                img={project16}
+                summary="SendBox is a cross-platform mobile application built with React Native and Expo, designed to provide users with a seamless experience for sending and receiving messages. The app features a user-friendly interface, real-time messaging capabilities, and robust performance, making it an ideal solution for communication on the go."
+                link="https://drive.google.com/drive/folders/1TVE5kiRWbKfDDrAM0mhtTi6JDVJmipXA?usp=drive_link"
+                github="https://github.com/Smart-AIT/sendboxapp"
+                type="Blog"
+                typeLink="/books/14?from=projects"
               />
             </div>
           </div>
