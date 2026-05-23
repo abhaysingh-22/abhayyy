@@ -55,7 +55,7 @@ const Education = () => {
                         type="Bachlor of Engineering in Information Technology" 
                         time="2024-2028"
                         place="Army Institute of Technology, Pune"
-                        info="Currently in 2nd year, CGPA: 8.70 (till 3rd semester)"
+                        info="Currently in 2nd year, CGPA: 8.77 (till 3rd semester)"
                     />
                      <Details
                         type="Higher Secondry Education - CBSE" 
