@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import Link from 'next/link'
 import Logo from './Logo'
 import { useRouter } from 'next/router'
-import { TwitterIcon, DribbbleIcon, GithubIcon, LinkedInIcon, PinterestIcon, SunIcon, MoonIcon } from './Icons'
+import { TwitterIcon, GithubIcon, LinkedInIcon, SunIcon, MoonIcon } from './Icons'
 import { motion } from 'framer-motion'
 import useThemeSwitcher from './hooks/useThemeSwitcher'
 
@@ -65,8 +65,8 @@ const NavBar = () => {
         <nav>
           <CustomLink href='/' title="Home" className='mr-4' />
           <CustomLink href='/about' title="About" className='mx-4' />
-          <CustomLink href='/projects' title="Projects" className='mx-4' />
           <CustomLink href='/articles' title="Key Highlights" className='ml-4' />
+          <CustomLink href='/projects' title="Projects" className='mx-4' />
           <CustomLink href='/books' title="Blogs" className='ml-4' />
         </nav>
 
