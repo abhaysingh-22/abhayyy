@@ -13,6 +13,7 @@ export default function BookCard({ id, title, author, description, coverImage })
           width={300}
           height={200}
           className="w-full h-48 object-cover"
+          loading="lazy"
         />
         <div className="p-4 flex flex-col flex-grow">
           <h3 className="text-lg font-semibold mb-1 text-gray-800">{title}</h3>
