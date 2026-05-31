@@ -3,7 +3,7 @@ import Layout from "@/components/Layout";
 import Head from "next/head";
 import React, { useEffect, useRef } from "react";
 import Image from "next/image";
-import profilePic from "../../public/images/profile/abe.jpg";
+import profilePic from "../../public/images/profile/abe.webp";
 import { useInView, useMotionValue, useSpring } from "framer-motion";
 import Skills from "@/components/Skills";
 import Experience from "@/components/Experience";

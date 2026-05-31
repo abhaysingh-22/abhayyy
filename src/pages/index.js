@@ -2,7 +2,7 @@ import { useState } from 'react'
 import Layout from '@/components/Layout'
 import Head from 'next/head'
 import Image from 'next/image'
-import profilePic from '../../public/images/profile/abhay.jpeg'
+import profilePic from '../../public/images/profile/abhay.webp'
 
 import AnimatedText from '@/components/AnimatedText'
 import Link from 'next/link'

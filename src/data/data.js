@@ -1,19 +1,19 @@
-import project1 from "../../public/images/projects/ait.png";
-import project2 from "../../public/images/projects/cidc.png";
-import project3 from "../../public/images/projects/ecotravel.png";
-import project4 from "../../public/images/projects/meta.png";
-import project5 from "../../public/images/projects/nexabots.png";
-import project6 from "../../public/images/projects/profolio.png";
-import project7 from "../../public/images/projects/ragent.png";
-import project8 from "../../public/images/projects/sendbox.png";
-import project9 from "../../public/images/projects/snapexx.png";
-import project10 from "../../public/images/projects/sniffi.png";
-import project11 from "../../public/images/projects/todo.png";
-import project12 from "../../public/images/projects/tripnow.png";
-import project13 from "../../public/images/projects/SIH.png";
-import project14 from "../../public/images/projects/snapexxApp.png";
-import project15 from "../../public/images/projects/hackathon.jpg";
-import project16 from "../../public/images/projects/sendboxapp.jpg";
+import project1 from "../../public/images/projects/ait.webp";
+import project2 from "../../public/images/projects/cidc.webp";
+import project3 from "../../public/images/projects/ecotravel.webp";
+import project4 from "../../public/images/projects/meta.webp";
+import project5 from "../../public/images/projects/nexabots.webp";
+import project6 from "../../public/images/projects/profolio.webp";
+import project7 from "../../public/images/projects/ragent.webp";
+import project8 from "../../public/images/projects/sendbox.webp";
+import project9 from "../../public/images/projects/snapexx.webp";
+import project10 from "../../public/images/projects/sniffi.webp";
+import project11 from "../../public/images/projects/todo.webp";
+import project12 from "../../public/images/projects/tripnow.webp";
+import project13 from "../../public/images/projects/SIH.webp";
+import project14 from "../../public/images/projects/snapexxApp.webp";
+import project15 from "../../public/images/projects/hackathon.webp";
+import project16 from "../../public/images/projects/sendboxapp.webp";
 
 export const books = [
   {
