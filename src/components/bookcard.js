@@ -12,7 +12,7 @@ export default function BookCard({ id, title, author, description, coverImage })
           alt={title} 
           width={300}
           height={200}
-          className="w-full h-48 object-cover"
+          className="w-full h-52 object-cover"
           loading="lazy"
         />
         <div className="p-4 flex flex-col flex-grow">
