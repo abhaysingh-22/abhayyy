@@ -69,8 +69,8 @@ const Experience = () => {
             work="Developed the official college website of AIT Pune, serving 2000+ students and faculty daily. Built scalable backend systems and responsive frontend interfaces to support real-time academic and institutional workflows."
           />
           <Details
-            position="Full Stack Developer "
-            company="SendBox"
+            position="Forward Deployed Engineer"
+            company="SendBox, AIT Pune"
             CompanyLink="https://sendboxait.vercel.app/"
             time="SupaBase"
             address="NextJS"
@@ -87,7 +87,7 @@ const Experience = () => {
           <Details
             position="Frontend Developer"
             company="NexaBots"
-            CompanyLink="https://nexalab.io/"
+            CompanyLink="/"
             time="2025-Present"
             address="NextJS"
             work="Developed a fully responsive B2B enterprise website to showcase IT services, enabling service discovery, lead generation, and improved client engagement through structured content and User Interface."
