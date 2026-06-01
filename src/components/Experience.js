@@ -69,7 +69,7 @@ const Experience = () => {
             work="Developed the official college website of AIT Pune, serving 2000+ students and faculty daily. Built scalable backend systems and responsive frontend interfaces to support real-time academic and institutional workflows."
           />
           <Details
-            position="Forward Deployed Engineer"
+            position="Full Stack Developer"
             company="SendBox, AIT Pune"
             CompanyLink="https://sendboxait.vercel.app/"
             time="SupaBase"
