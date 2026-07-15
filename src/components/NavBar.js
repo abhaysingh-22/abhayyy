@@ -72,18 +72,18 @@ const NavBar = () => {
 
 
         <nav className='flex items-center justify-center flex-wrap'>
-          <motion.a href="https://x.com/build_nextera" target={"_blank"}
+          {/* <motion.a href="https://x.com/build_nextera" target={"_blank"}
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
             className="w-6 mx-3"
           ><TwitterIcon />
-          </motion.a>
+          </motion.a> */}
           <motion.a href="https://github.com/abhaysingh-22" target={"_blank"} className="w-6 mx-3" whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }} ><GithubIcon /></motion.a>
           <motion.a href="https://www.linkedin.com/in/abhaysingh22/" target={"_blank"} className="w-6 mx-3" whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }} ><LinkedInIcon /></motion.a>
-          <motion.a href="https://peerlist.io/abhaysingh6575" target={"_blank"} className="w-6 mx-3 bg-light rounded-full" whileHover={{ y: -2 }}
-            whileTap={{ scale: 0.9 }} ><img src="https://peerlist.io/favicon_512.png" alt="Peerlist" className="w-full h-auto" /></motion.a>
+          <motion.a href="https://www.instagram.com/abhaysingh22_/" target={"_blank"} className="w-6 mx-3 bg-light rounded-full" whileHover={{ y: -2 }}
+            whileTap={{ scale: 0.9 }} ><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/1280px-Instagram_icon.png?_=20200512141346" alt="Instagram" className="w-full h-auto" /></motion.a>
           <motion.a href="https://codolio.com/profile/abhaysingh22_" target={"_blank"} className="w-6 ml-3" whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }} ><img src="https://codolio.com/codolio_assets/codolio.svg" alt="Codolio" className="w-full h-auto" /></motion.a>
 
@@ -116,18 +116,18 @@ const NavBar = () => {
 
 
             <nav className='flex items-center justify-center flex-wrap mt-2'>
-              <motion.a href="https://x.com/build_nextera" target={"_blank"}
+              {/* <motion.a href="https://x.com/build_nextera" target={"_blank"}
                 whileHover={{ y: -2 }}
                 whileTap={{ scale: 0.9 }}
                 className="w-6 mr sm:mx-1"
               ><TwitterIcon />
-              </motion.a>
+              </motion.a> */}
               <motion.a href="https://github.com/abhaysingh-22" target={"_blank"} className="w-6 mx-3 bg-light rounded-full dark:bg-dark sm:mx-" whileHover={{ y: -2 }}
                 whileTap={{ scale: 0.9 }} ><GithubIcon /></motion.a>
               <motion.a href="https://www.linkedin.com/in/abhaysingh22/" target={"_blank"} className="w-6 mx-3 sm:mx-" whileHover={{ y: -2 }}
                 whileTap={{ scale: 0.9 }} ><LinkedInIcon /></motion.a>
-              <motion.a href="https://peerlist.io/abhaysingh6575" target={"_blank"} className="w-6 mx-3 bg-light rounded-full sm:mx-" whileHover={{ y: -2 }}
-                whileTap={{ scale: 0.9 }} ><img src="https://peerlist.io/favicon_512.png" alt="Peerlist" className="w-full h-auto" /></motion.a>
+              <motion.a href="https://www.instagram.com/abhaysingh22_/" target={"_blank"} className="w-6 mx-3 bg-light rounded-full sm:mx-" whileHover={{ y: -2 }}
+                whileTap={{ scale: 0.9 }} ><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/1280px-Instagram_icon.png?_=20200512141346" alt="Peerlist" className="w-full h-auto" /></motion.a>
               <motion.a href="https://codolio.com/profile/abhaysingh22_" target={"_blank"} className="w-6 ml-3 sm:mx-" whileHover={{ y: -2 }}
                 whileTap={{ scale: 0.9 }} ><img src="https://codolio.com/codolio_assets/codolio.svg" alt="Codolio" className="w-full h-auto" /></motion.a>
 
