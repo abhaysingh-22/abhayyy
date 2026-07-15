@@ -160,7 +160,7 @@ const Experience = () => {
               // CompanyLink="https://sheryians.com/"
               time="12/2025"
               address="Pune, Maharashtra"
-              work="NextEra is a product studio where I build and experiment with web, mobile, and AI-driven tools. I focus on turning ideas into real, usable products - especially around automation and solving practical, everyday problems."
+              work="NextEra is a product studio where I design, build, and experiment with web, mobile, and AI-powered products while also providing custom software development services. I focus on turning ideas into real, usable products - especially around automation and solving practical, everyday problems."
             />
             <Details
               position=" Build real-world scalable systems"
