@@ -48,10 +48,10 @@ module.exports = {
       xl: { max: "1279px" },
       // => @media (max-width: 1279px) { ... }
 
-      "xl-mid": { min: "1129px", max: "1218px" },
+      // "xl-mid": { min: "1058px", max: "1270px" },
       // => @media (min-width: 1058px and max-width: 1218px) { ... }
 
-      lg: { max: "1123px" },
+      lg: { max: "1023px" },
       // => @media (max-width: 1023px) { ... }
 
       md: { max: "767px" },
