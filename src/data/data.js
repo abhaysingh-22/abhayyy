@@ -14,16 +14,19 @@ import project13 from "../../public/images/projects/SIH.webp";
 import project14 from "../../public/images/projects/snapexxApp.webp";
 import project15 from "../../public/images/projects/hackathon.webp";
 import project16 from "../../public/images/projects/sendboxapp.webp";
+import project17 from "../../public/images/projects/synclip.webp";
+import project18 from "../../public/images/projects/recoup.webp";
 
 export const books = [
-  {
-    id: 1,
-    author: "MERN Stack",
-    title: "Army Institute of Technology",
-    image: project1,
-    description:
-      "This is the official website of AIT, Pune, where I served as a full stack developer, contributing to building scalable system, improving user experience, collaborating with team & with 2000+ active users.",
-    content: `<p>
+   //ait
+   {
+      id: 1,
+      author: "MERN Stack",
+      title: "Army Institute of Technology",
+      image: project1,
+      description:
+         "This is the official website of AIT, Pune, where I served as a full stack developer, contributing to building scalable system, improving user experience, collaborating with team & with 2000+ active users.",
+      content: `<p>
 Building the Official AIT Pune Website: From Nervous Start to Production System
 </p>
 <br>
@@ -59,15 +62,16 @@ Beyond features, there were countless unseen challenges—debugging issues, opti
 <p>
 After nearly three months of continuous work, the project was successfully developed. More than just the final product, this experience gave me real exposure to building large-scale systems, working in a team, and handling production-level challenges. It wasn’t just about writing code—it was about building something meaningful that would actually be used every day, and leaving a lasting impact associated with our college’s name.
     </p>`,
-  },
-  {
-    id: 2,
-    author: "Supabase, NextJs",
-    title: "SendBox",
-    image: project8,
-    description:
-      "SendBox is an automation system used by AIT Pune officials to send automated messages and wishes to students, staff, and faculty. Tested on 1700+ users, it ensures seamless and efficient communication at scale. ",
-    content: `<p>
+   },
+   //sendbox
+   {
+      id: 2,
+      author: "Supabase, NextJs, WaSender, Cron-job",
+      title: "SendBox",
+      image: project8,
+      description:
+         "SendBox is an automation system used by AIT Pune officials to send automated messages and wishes to students, staff, and faculty. Tested on 1700+ users, it ensures seamless and efficient communication at scale. ",
+      content: `<p>
        
    Building SendBox: Automating Communication at Scale
    </p>
@@ -101,60 +105,43 @@ The key takeaway was simple: if you’re building at a small or mid scale, avoid
 <p>
 Today, SendBox is actively used within the institution to automate communication and deliver messages seamlessly. More than the product itself, this project taught me how to make practical engineering decisions—balancing cost, scalability, and speed while working under real-world constraints.
        </p>`,
-  },
-  {
-    id: 3,
-    author: "NextJs",
-    title: "Portfolio",
-    image: project6,
-    description:
-      "A personal portfolio showcasing my work in full-stack development, AI-driven applications, and real-world systems built with modern technologies.",
-    content: `<p>
-    Building My Portfolio: More Than Just a Website
-   </p>
-
-   <p>
-If you’re reading this, you’re already on my portfolio—and that’s exactly the point of building it.
-</p>
+   },
+   //synclip app
+   {
+      id: 18,
+      author: "React Native, Node, Websockets",
+      title: "SynClip App/Desktop",
+      image: project17,
+      description:
+         "This is the cross platform mobile and desktop app which will help you to sync your clipboard data across devices.",
+      content: `
+   <p>I built this application because I was frustrated with a simple but recurring problem: copying something on my phone and using it on my OS — and vice versa.</p> 
    <br>
-
-<p>
-Unlike many developers who create their portfolio early in their journey, I built mine a bit later. Not because I couldn’t, but because I didn’t fully understand its importance at the beginning. Over time, I realized something important: a resume is limited—you have to fit everything into one page and tailor it for every opportunity. But a portfolio is different. It gives you the space to showcase everything you’ve built, learned, and experienced without constraints.
-</p>
+   <p>Previously, the process was unnecessarily complicated:</p>
    <br>
-
-<p>
-This portfolio is built using Next.js along with modern tools and animations like GSAP, focusing on performance and clean design. I intentionally kept the UI simple—no unnecessary gradients or over-the-top animations—because I believe clarity and usability matter more than visual noise. The goal was to let the work speak for itself.
-</p>
+   <p> Phone → Copy → Send it to WhatsApp → Open WhatsApp on my OS → Copy again → Use it</p>
    <br>
-
-<p>
-Inside, you’ll find sections like Home, About, Projects, Key Highlights, and Blogs. Each section is designed to give a complete picture of my journey—from the systems I’ve built and the problems I’ve solved to the experiences that shaped my approach to development.
-</p>
+   <p>And the same hassle existed when I needed to move something from my OS back to my phone.</p>
    <br>
-
-   <p>
-More than just a collection of projects, this portfolio represents how I think and work. It reflects my focus on building real-world systems, experimenting with new ideas, and continuously improving my skills. From working on institutional platforms to developing AI-driven applications, every project here has been part of my learning curve.
-</p>
+   <p> So, instead of continuing with this tedious workflow, I decided to solve the problem.</p>
    <br>
-
-<p>
-I’m currently a second-year engineering student at Army Institute of Technology, Pune (Batch of 2028), actively building, learning, and contributing to real-world projects. I enjoy exploring new technologies, implementing them in practical scenarios, and pushing my limits with every project I take on.
-</p>
+   <p>This application allows me to copy something on my phone and directly paste it into my OS, making the entire process seamless. The same works in the other direction as well.</p>
    <br>
-
-<p>
-This portfolio is not final—it will keep evolving as I grow. And that’s exactly how I see development as well: a continuous process of learning, building, and improving.
-     </p>`,
-  },
-  {
-    id: 4,
-    author: "Vertex AI, Supabase, ReactJs",
-    title: "Snapexx",
-    image: project9,
-    description:
-      "Snapexx is an AI-powered platform for generating images & videos from prompts & local images, featuring advanced editing, professional content creation, & image comparison, used by 25+ users.",
-    content: `<p>
+   <p>If you find this useful, you can also set it up and use it personally by following the User Guide provided in the repository.</p>
+   <br>
+   <p>I believe in one simple idea: "Build What Matters!!"</p>
+   <br>
+          `,
+   },
+   //snapexx
+   {
+      id: 4,
+      author: "Vertex AI, Supabase, ReactJs",
+      title: "Snapexx",
+      image: project9,
+      description:
+         "Snapexx is an AI-powered platform for generating images & videos from prompts & local images, featuring advanced editing, professional content creation, & image comparison, used by 25+ users.",
+      content: `<p>
     Building SnapExx: From Idea to Real-World AI Product
    </p>
 
@@ -226,307 +213,16 @@ Today, SnapExx is actively used by real users to create and experiment with AI-g
    <p>
 This journey showed me that real learning doesn’t come from tutorials—it comes from solving real problems, making mistakes, and continuously improving the system.
  </p>`,
-  },
-  {
-    id: 5,
-    author: "NextJs",
-    title: "CIDC",
-    image: project2,
-    description:
-      "Developed the official IT department club website for AIT, Pune, actively used by club members and faculty with 30+ regular interactions.",
-    content: `<p>
-    Building the CIDC Website: Solving a Real Problem Within the Club
-    </p>
-   <br>
-
-<p>
-CIDC (College Innovation and Development Club) is the official technical club of Army Institute of Technology, Pune. I joined the club in my first year as an FE member, and in my second year, I was promoted to Joint Secretary and selected as the Dev Lead. With this role came responsibility—not just to contribute, but to actually improve how the club functions.
-</p>
-<br>
-
-<p>
-One major issue I noticed was that all club information was maintained on paper. Details like team members, leadership roles, ongoing projects, and past work were not easily accessible. Anyone who wanted information—whether a student or faculty member—had to rely on manual records or word of mouth. This was clearly inefficient and not scalable.
-</p>
-   <br>
-
-<p>
-That’s when I decided to build the official CIDC website.
-</p>
-   <br>
-
-<p>
-The goal was simple: create a centralized platform where anyone could access all relevant information about the club—from team structure to projects and updates—anytime, from anywhere. Instead of solving a hypothetical problem, this was about fixing something we were actually facing.
-</p>
-   <br>
-
-   <p>
-I started with research, exploring different UI/UX styles and design approaches. That’s when I came across retro-themed interfaces. The style stood out to me—it was unique, visually engaging, and different from typical modern designs. I decided to go with a retro theme to give the website a distinct identity.
-</p>
-   <br>
-
-   <p>
-Before writing any code, I created rough sketches to plan the layout and structure. Once the design direction was clear, I started building the website using Next.js, focusing on performance, scalability, and clean routing.
-</p>
-   <br>
-
-   <p>
-The website includes all essential sections—team members, leadership roles, project showcases, and updates—making it a complete information hub. I also ensured the site was fully responsive and optimized for a smooth user experience across devices.
-</p>
-   <br>
-
-   <p>
-The biggest challenge I faced was in the design phase. Translating a retro concept into a functional, user-friendly interface wasn’t straightforward. Balancing aesthetics with usability required multiple iterations and constant refinement.
-</p>
-   <br>
-
-   <p>
-After deployment, the impact was immediate. The website now receives 40+ active users, and accessing club information has become seamless. Students and faculty can easily explore the club, understand its structure, and stay updated with ongoing work.
-</p>
-   <br>
-
-   <p>
-One of the most rewarding moments was receiving positive feedback from both users and faculty, along with a letter of appreciation for building the platform. It validated that the solution was not just functional, but genuinely useful.
-</p>
-   <br>
-
-   <p>
-This project taught me an important lesson: impactful projects don’t always come from big ideas—they come from solving real problems around you. As a Dev Lead, this wasn’t just about building a website—it was about creating something meaningful for the community I was part of.
-</p>
-   <br>
-
-   <p>
-Overall CIDC says: "Built what matters !!"
-   </p>`,
-  },
-  {
-    id: 6,
-    author: "ReactJs",
-    title: "DayStacks",
-    image: project11,
-    description:
-      "Developed a smart productivity app with chatbot-driven task management, calendar integration, and in-app YouTube embedding for distraction-free learning, with 40+ active users.",
-    content: `<p>
-        Building Daystacks: From a Simple Todo App to a Focused Productivity System
-        </p>
-   <br>
-
-   <p>
-Daystacks didn’t start as something ambitious. It began as a simple goal—to build a project after learning React. Like most developers, I initially thought of creating a basic todo application, something common and easy to implement.
-</p>
-   <br>
-
-   <p>
-But while building it, I realized something important: most todo apps are limited. They help you list tasks, but they don’t actually help you stay focused or execute them efficiently. That’s where the idea evolved.
-</p>
-   <br>
-
-   <p>
-Instead of just building another checklist app, I decided to create something more practical—a workspace where planning, learning, and execution could happen in one place.
-</p>
-   <br>
-
-   <p>
-The first major addition was YouTube and web integration. One of the biggest distractions while studying is constantly switching tabs between tasks and learning resources. So I built a system where users can embed YouTube videos or useful links directly into the app. The logic is simple but powerful: users input a link, the system validates and converts it into an embeddable format, and it becomes a reusable in-app learning resource. This eliminates unnecessary context switching and helps maintain focus.
-</p>
-   <br>
-
-   <p>
-The second and most defining feature is Ethos—an AI-powered chatbot that goes beyond just answering questions. Unlike typical chatbots, Ethos is action-oriented. It doesn’t just respond; it interacts with the application itself. It can create tasks, update them, mark them complete, or delete them—all through structured commands. This transforms the app from a passive tool into an active assistant.
-</p>
-   <br>
-
-   <p>
-From a technical perspective, the architecture is clean and practical. The application is built using React, Vite, TailwindCSS, and React Context for global state management. All critical data—tasks, user inputs, and layout states—are persisted using localStorage, ensuring that user progress is maintained even after reloads.
-</p>
-   <br>
-
-   <p>
-Routing is designed to keep the experience smooth and modular. The Today view, calendar scheduling, and dynamic web/video viewer are all separated into independent routes while still maintaining a seamless single-page application feel.
-</p>
-   <br>
-
-   <p>
-Another important aspect was performance and usability. I ensured minimal re-renders, efficient state updates, and a clean UI that avoids unnecessary complexity. Features like dark mode, calendar planning, and quick navigation further enhance the user experience.
-</p>
-   <br>
-
-   <p>
-The result is not just a todo app—it’s a focused productivity system. Currently, 40+ active users, including my batchmates, use it regularly, especially for reducing distractions while studying.
-</p>
-   <br>
-
-   <p>
-This project taught me a key lesson: good products don’t come from building something new—they come from improving something that already exists but isn’t working well enough.
-     </p>`,
-  },
-  {
-    id: 7,
-    author: "MERN Stack",
-    title: "TripNow",
-    image: project12,
-    description:
-      "TripNow is a ride-booking application inspired by real world applications that enables users to book rides, manage trips, and track journeys through a seamless and user-friendly interface. ",
-    content: `<p>
-       Building TripNow: From Learning MERN to Understanding Real Systems
-</p>
-   <br>
-
-   <p>
-TripNow was not started to solve a real-world problem. It began as a learning-driven project. After completing my core learning in the MERN stack, I wanted to go beyond tutorials and actually understand how real systems work—how frontend and backend connect, how APIs are structured, and how scalable applications are built.
-</p>
-   <br>
-
-   <p>
-This project became my playground to explore architecture, system design, and real-world implementation challenges.
-</p>
-   <br>
-
-   <p>
-TripNow is a ride-booking application inspired by real-world platforms. It includes core functionalities like ride booking, driver availability, real-time location tracking, and payment simulation. I integrated Google Maps APIs to handle geolocation, route tracking, and distance calculations, along with Razorpay (dummy integration) to simulate payment workflows.
-</p>
-   <br>
-
-   <p>
-While building, I focused heavily on backend structure and API design. Instead of just making things work, I tried to design scalable APIs and understand how data flows across the system. This was one of the first projects where I consciously thought about architecture, not just features.
-</p>
-   <br>
-
-   <p>
-During development, I also explored adding small but meaningful improvements. One such idea was introducing an online/offline mode for drivers. This is not being implemented but came into my mind that If a driver wants to take a break, they can switch to offline mode and access a section where they can listen to audio content like podcasts or YouTube-based learning. It’s a small feature, but it reflects how even simple systems can be improved with better user experience thinking.
-</p>
-   <br>
-
-   <p>
-The most challenging parts of this project were implementing real-time communication using sockets and deploying the application to production. Working with sockets for the first time was difficult—it required understanding event-based communication and handling real-time updates efficiently. Deployment was another major hurdle. Getting both frontend and backend to work properly in production took multiple days of debugging and configuration.
-</p>
-   <br>
-
-   <p>
-This project took around 62+ days of continuous work—coding, debugging, testing, and improving. It wasn’t just about completing features, but about understanding how systems behave in real scenarios.
-</p>
-   <br>
-
-   <p>
-TripNow taught me one of the most important lessons in development: building something from scratch forces you to understand every layer of the system. It pushes you beyond surface-level knowledge and helps you think like an engineer.
-</p>
-   <br>
-
-   <p>
-Even though it started as a learning project, it ended up becoming one of the most valuable experiences in my journey.
-      </p>`,
-  },
-  {
-    id: 8,
-    author: "Supabase, ReactJs",
-    title: "EcoTravel",
-    image: project3,
-    description:
-      "EcoTravel is a sustainable travel planner that offers voice-based chatbot-assisted journey planning, event discovery, and community-driven discussion, notes for a smarter travel experience.",
-    content: `<p>
-
-EcoTravel wasn’t an idea I spent weeks brainstorming. It came from a problem statement assigned during one of my second-year subjects. Out of multiple options, this was the one that genuinely stood out to me—not just as an academic task, but as something with real potential.
-</p>
-   <br>
-
-   <p>
-The concept was simple: build a platform that helps users make more sustainable travel decisions. But as I explored deeper, I realized this wasn’t just another project—it could evolve into something meaningful.
-</p>
-   <br>
-
-   <p>
-This was the “vibe-coded” projects. Instead of over-planning every detail, I focused on building, experimenting, and iterating as I progressed. The goal was to create a functional and engaging system rather than getting stuck in perfect architecture from the start.
-</p>
-   <br>
-
-   <p>
-EcoTravel is a full-stack web application designed to promote sustainable tourism. It brings together multiple features into a single platform—eco-friendly destination discovery, community-driven notes, travel insights, and an AI-powered chatbot (EcoBot) that guides users toward better travel decisions.
-</p>
-   <br>
-
-   <p>
-One of the most interesting parts of this project is EcoBot. It acts as an intelligent assistant that can answer questions about sustainable travel, recommend eco-friendly options, and even interact through voice. Instead of static information, users get a conversational and interactive experience.
-</p>
-   <br>
-
-   <p>
-From a technical perspective, the application is built using modern tools like React, TypeScript, TailwindCSS, and Supabase. The focus was on creating a smooth user experience, fast performance, and a clean interface that doesn’t overwhelm users.
-</p>
-   <br>
-
-   <p>
-The biggest challenge in this project was not just implementation, but direction. Since this wasn’t a strictly defined real-world requirement, I had to decide what features actually matter and what adds value. It required balancing between building something useful and not overcomplicating the system.
-</p>
-   <br>
-
-   <p>
-Another limitation was backend infrastructure. Due to API and service constraints, the application is not fully active at the moment. But this doesn’t reduce its potential—in fact, it highlights how much more can be built on top of it.
-</p>
-   <br>
-
-   <p>
-EcoTravel made me realize that not every impactful project starts with a perfect idea. Sometimes, you discover the potential while building.
-</p>
-   <br>
-
-   <p>
-What started as a college assignment can be turned into a platform that can genuinely evolve into a real product.
-  </p>`,
-  },
-  {
-    id: 9,
-    author: "LangChain, LangGraph, FastAPI",
-    title: "Restaurant Agent",
-    image: project7,
-    description:
-      "Restaurant Agent is an AI-powered system that automates order booking, inventory management, and customer FAQs through an conversational chat interface.",
-    content: `<p>
-
-The Restaurant AI Agent project started with a simple observation—everyone was building AI voice agents, but very few were focusing on domain-specific, practical systems. Instead of following the trend, I decided to build something different: an AI agent that could actually help automate real restaurant operations.
-</p>
-   <br>
-
-   <p>
-The goal of this project was to create an intelligent assistant capable of handling order bookings, answering frequently asked questions, and providing real-time stock information. Rather than building a generic chatbot, I wanted to design a system that could perform meaningful actions within a specific domain.
-</p>
-   <br>
-
-<p>
-The frontend of the application is intentionally simple, built using HTML, CSS, and JavaScript to keep the focus on functionality. The backend is powered by FastAPI, combined with LangChain and LangGraph to orchestrate agent workflows and decision-making. This setup allows the agent to select appropriate tools—such as retrieving menu data, checking stock, or responding to queries—based on user input.
-</p>
-   <br>
-
-   <p>
-One of the most unique decisions in this project was using Google Sheets as the database. The idea was to keep the system simple and easily manageable, where even non-technical users could update menu items, stock, and FAQs directly. However, this turned out to be one of the most challenging parts of the project.
-</p>
-   <br>
-
-   <p>
-Integrating the Google Sheets API was far more complex than expected. There was very limited guidance available on google and youtube, and even running the system on localhost required complex and careful configuration of credentials and API access. After several days of research and experimentation, I was finally able to establish a stable connection and get the system working locally.
-</p>
-   <br>
-
-   <p>
-But the real challenge came during deployment. While the frontend (Vercel) and backend (Render) were successfully deployed, the agent stopped functioning correctly. It behaved like a normal chatbot but failed to retrieve orders, stock data, or FAQ responses. The root cause was the Google Sheets API failing in the production environment due to authentication and connection issues.
-</p>
-   <br>
-
-   <p>
-Fixing this required deep debugging of API credentials, environment variables, and access permissions. After multiple iterations and nearly two days of continuous effort, I was finally able to stabilize the connection and make the system fully functional in production.
-</p>
-   <br>
-
-   <p>
-This project taught me an important lesson: building an AI system is not just about integrating models—it’s about making the entire pipeline reliable. From data access to deployment, every component must work seamlessly.
-   </p>`,
-  },
-  {
-    id: 11,
-    author: "FastAPI, OpenEnv, HuggingFace",
-    title: "Customer-Support-Agent",
-    image: project4,
-    description:
-      "An agentic application simulates real-world customer support workflows, evaluating decision accuracy, policy compliance, and multi-step reasoning using constrained tools.",
-    content: `<p>
+   },
+   //CSA
+   {
+      id: 11,
+      author: "FastAPI, OpenEnv, HuggingFace",
+      title: "Customer-Support-Agent",
+      image: project4,
+      description:
+         "An agentic application simulates real-world customer support workflows, evaluating decision accuracy, policy compliance, and multi-step reasoning using constrained tools.",
+      content: `<p>
         Building a Customer Support Agent: Surviving Constraints, Not Just Writing Code
 </p>
    <br>
@@ -600,15 +296,97 @@ More importantly, it changed how I approach development. I now focus not just on
    <p>
 This wasn’t just a project. It was a test of patience, precision, and problem-solving under pressure.
    </p>`,
-  },
-  {
-    id: 12,
-    author: "ReactJs",
-    title: "Sniffi",
-    image: project10,
-    description:
-      "A home veterinary service platform delivering expert pet healthcare at your doorstep, including consultations, vaccinations, checkups, and diagnostics.",
-    content: `<p>
+   },
+   //recoupAI
+   {
+      id: 19,
+      author: "FastAPI, ReactJs, Groq, Supabase",
+      title: "RecoupAI",
+      image: project18,
+      description:
+         "AI agent that diagnoses failed payments, executes smart recovery actions, and proves recovered revenue with a full audit trail.",
+      content: `
+   <p>Subscription and recurring-payment businesses lose significant revenue every month not because customers choose to leave, but because a payment silently fails — an expired card, insufficient funds, a bank timeout — and nobody acts on it in time. Industry data suggests 20-40% of subscription churn is involuntary in exactly this way, making it one of the most fixable, highest-leverage problems in fintech.</p>
+   <br>
+
+   <p>
+This project is an AI-powered revenue recovery agent built on Razorpay's platform that closes that gap. Rather than applying one blunt retry rule to every failure, the system diagnoses the specific reason a payment failed and chooses a tailored recovery action: scheduling a smart retry for transient issues like insufficient funds (timed around typical salary-credit patterns), prompting a card-update for permanently failed cards, or immediately escalating fraud-flagged cases without any retry attempt at all. Critically, the system also knows when to stop — enforcing compliant retry limits instead of chasing money indefinitely.
+</p>
+<br>
+
+<p>
+Under the hood, a LangGraph-orchestrated agent pipeline runs each failed transaction through three stages: classification, decision-making, and execution. Groq-hosted LLMs handle the judgment-heavy steps — interpreting ambiguous failure reasons and selecting interventions — while retry-timing math and financial reporting are handled deterministically in plain Python, ensuring recovered-revenue figures are exact, not approximate. Every decision, along with its reasoning, is persisted to a Postgres (Supabase) audit trail, and batch runs generate an executive summary: total revenue recovered, breakdown by failure reason, and an honest list of unresolved exceptions — built for a non-technical reviewer to understand at a glance.
+</p>
+<br>
+
+<p>
+The system integrates with Razorpay's real test-mode APIs to execute actual retry actions, and includes a time-simulation utility to demonstrate how recovery rates mature across multiple attempt cycles, reflecting how retries would genuinely play out over days in production.
+</p>
+<br>
+
+<p>
+A React dashboard surfaces the full story live: revenue recovered against revenue at risk, recovery performance by failure type, and a transparent, timestamped log of every action the agent took and why — turning what is usually invisible backend logic into something a merchant, or a reviewing panel, can trust and verify at a glance.</p>
+<br>
+          `,
+   },
+   //restaurant agent
+   {
+      id: 9,
+      author: "LangChain, LangGraph, FastAPI",
+      title: "Restaurant Agent",
+      image: project7,
+      description:
+         "Restaurant Agent is an AI-powered system that automates order booking, inventory management, and customer FAQs through an conversational chat interface.",
+      content: `<p>
+
+The Restaurant AI Agent project started with a simple observation—everyone was building AI voice agents, but very few were focusing on domain-specific, practical systems. Instead of following the trend, I decided to build something different: an AI agent that could actually help automate real restaurant operations.
+</p>
+   <br>
+
+   <p>
+The goal of this project was to create an intelligent assistant capable of handling order bookings, answering frequently asked questions, and providing real-time stock information. Rather than building a generic chatbot, I wanted to design a system that could perform meaningful actions within a specific domain.
+</p>
+   <br>
+
+<p>
+The frontend of the application is intentionally simple, built using HTML, CSS, and JavaScript to keep the focus on functionality. The backend is powered by FastAPI, combined with LangChain and LangGraph to orchestrate agent workflows and decision-making. This setup allows the agent to select appropriate tools—such as retrieving menu data, checking stock, or responding to queries—based on user input.
+</p>
+   <br>
+
+   <p>
+One of the most unique decisions in this project was using Google Sheets as the database. The idea was to keep the system simple and easily manageable, where even non-technical users could update menu items, stock, and FAQs directly. However, this turned out to be one of the most challenging parts of the project.
+</p>
+   <br>
+
+   <p>
+Integrating the Google Sheets API was far more complex than expected. There was very limited guidance available on google and youtube, and even running the system on localhost required complex and careful configuration of credentials and API access. After several days of research and experimentation, I was finally able to establish a stable connection and get the system working locally.
+</p>
+   <br>
+
+   <p>
+But the real challenge came during deployment. While the frontend (Vercel) and backend (Render) were successfully deployed, the agent stopped functioning correctly. It behaved like a normal chatbot but failed to retrieve orders, stock data, or FAQ responses. The root cause was the Google Sheets API failing in the production environment due to authentication and connection issues.
+</p>
+   <br>
+
+   <p>
+Fixing this required deep debugging of API credentials, environment variables, and access permissions. After multiple iterations and nearly two days of continuous effort, I was finally able to stabilize the connection and make the system fully functional in production.
+</p>
+   <br>
+
+   <p>
+This project taught me an important lesson: building an AI system is not just about integrating models—it’s about making the entire pipeline reliable. From data access to deployment, every component must work seamlessly.
+   </p>`,
+   },
+   //sniffi
+   {
+      id: 12,
+      author: "ReactJs",
+      title: "Sniffi (Freelanced)",
+      image: project10,
+      description:
+         "A home veterinary service platform delivering expert pet healthcare at your doorstep, including consultations, vaccinations, checkups, and diagnostics.",
+      content: `
+    <p>
         Building Sniffi: My First Real Experience with Collaboration and Failure
 </p>
    <br>
@@ -671,15 +449,16 @@ Sniffi wasn’t just a frontend project for me—it was my introduction to real 
    <p>
 Looking back, this project wasn’t about React or UI—it was about learning how to work in a team, how to recover from failure, and how to build things the right way.
   </p>`,
-  },
-  {
-    id: 13,
-    author: "NextJs",
-    title: "Nexabots",
-    image: project5,
-    description:
-      "Nexabots is a B2B enterprise IT services platform that showcases infrastructure, cloud, and surveillance solutions, enabling service discovery, lead generation, and client engagement.",
-    content: `<p>
+   },
+   //nexabots
+   {
+      id: 13,
+      author: "NextJs",
+      title: "Nexabots (Freelanced)",
+      image: project5,
+      description:
+         "Nexabots is a B2B enterprise IT services platform that showcases infrastructure, cloud, and surveillance solutions, enabling service discovery, lead generation, and client engagement.",
+      content: `<p>
         Building NexaBots: From Incomplete Designs to a Production-Ready Frontend
 </p>
    <br>
@@ -732,15 +511,181 @@ What made this project valuable was not just the final output, but the process. 
    <p>
 NexaBots taught me that real-world projects are rarely perfect. You don’t always get complete designs or clear instructions. Sometimes, you have to fill the gaps yourself—and that’s where actual learning happens.
   </p>`,
-  },
-  {
-    id: 14,
-    author: "Gemini, React Native expo",
-    title: "Farmer Assistant App",
-    image: project13,
-    description:
-      "An AI-powered mobile app providing real-time agricultural guidance via voice and text chatbot, designed for seamless and accessible farmer support.",
-    content: `<p>
+   },
+   //portfolio
+   {
+      id: 3,
+      author: "NextJs",
+      title: "Portfolio",
+      image: project6,
+      description:
+         "A personal portfolio showcasing my work in full-stack development, AI-driven applications, and real-world systems built with modern technologies.",
+      content: `<p>
+    Building My Portfolio: More Than Just a Website
+   </p>
+
+   <p>
+If you’re reading this, you’re already on my portfolio—and that’s exactly the point of building it.
+</p>
+   <br>
+
+<p>
+Unlike many developers who create their portfolio early in their journey, I built mine a bit later. Not because I couldn’t, but because I didn’t fully understand its importance at the beginning. Over time, I realized something important: a resume is limited—you have to fit everything into one page and tailor it for every opportunity. But a portfolio is different. It gives you the space to showcase everything you’ve built, learned, and experienced without constraints.
+</p>
+   <br>
+
+<p>
+This portfolio is built using Next.js along with modern tools and animations like GSAP, focusing on performance and clean design. I intentionally kept the UI simple—no unnecessary gradients or over-the-top animations—because I believe clarity and usability matter more than visual noise. The goal was to let the work speak for itself.
+</p>
+   <br>
+
+<p>
+Inside, you’ll find sections like Home, About, Projects, Key Highlights, and Blogs. Each section is designed to give a complete picture of my journey—from the systems I’ve built and the problems I’ve solved to the experiences that shaped my approach to development.
+</p>
+   <br>
+
+   <p>
+More than just a collection of projects, this portfolio represents how I think and work. It reflects my focus on building real-world systems, experimenting with new ideas, and continuously improving my skills. From working on institutional platforms to developing AI-driven applications, every project here has been part of my learning curve.
+</p>
+   <br>
+
+<p>
+I’m currently a second-year engineering student at Army Institute of Technology, Pune (Batch of 2028), actively building, learning, and contributing to real-world projects. I enjoy exploring new technologies, implementing them in practical scenarios, and pushing my limits with every project I take on.
+</p>
+   <br>
+
+<p>
+This portfolio is not final—it will keep evolving as I grow. And that’s exactly how I see development as well: a continuous process of learning, building, and improving.
+     </p>`,
+   },
+   //tripnow
+   {
+      id: 7,
+      author: "MERN Stack",
+      title: "TripNow",
+      image: project12,
+      description:
+         "TripNow is a ride-booking application inspired by real world applications that enables users to book rides, manage trips, and track journeys through a seamless and user-friendly interface. ",
+      content: `<p>
+       Building TripNow: From Learning MERN to Understanding Real Systems
+</p>
+   <br>
+
+   <p>
+TripNow was not started to solve a real-world problem. It began as a learning-driven project. After completing my core learning in the MERN stack, I wanted to go beyond tutorials and actually understand how real systems work—how frontend and backend connect, how APIs are structured, and how scalable applications are built.
+</p>
+   <br>
+
+   <p>
+This project became my playground to explore architecture, system design, and real-world implementation challenges.
+</p>
+   <br>
+
+   <p>
+TripNow is a ride-booking application inspired by real-world platforms. It includes core functionalities like ride booking, driver availability, real-time location tracking, and payment simulation. I integrated Google Maps APIs to handle geolocation, route tracking, and distance calculations, along with Razorpay (dummy integration) to simulate payment workflows.
+</p>
+   <br>
+
+   <p>
+While building, I focused heavily on backend structure and API design. Instead of just making things work, I tried to design scalable APIs and understand how data flows across the system. This was one of the first projects where I consciously thought about architecture, not just features.
+</p>
+   <br>
+
+   <p>
+During development, I also explored adding small but meaningful improvements. One such idea was introducing an online/offline mode for drivers. This is not being implemented but came into my mind that If a driver wants to take a break, they can switch to offline mode and access a section where they can listen to audio content like podcasts or YouTube-based learning. It’s a small feature, but it reflects how even simple systems can be improved with better user experience thinking.
+</p>
+   <br>
+
+   <p>
+The most challenging parts of this project were implementing real-time communication using sockets and deploying the application to production. Working with sockets for the first time was difficult—it required understanding event-based communication and handling real-time updates efficiently. Deployment was another major hurdle. Getting both frontend and backend to work properly in production took multiple days of debugging and configuration.
+</p>
+   <br>
+
+   <p>
+This project took around 62+ days of continuous work—coding, debugging, testing, and improving. It wasn’t just about completing features, but about understanding how systems behave in real scenarios.
+</p>
+   <br>
+
+   <p>
+TripNow taught me one of the most important lessons in development: building something from scratch forces you to understand every layer of the system. It pushes you beyond surface-level knowledge and helps you think like an engineer.
+</p>
+   <br>
+
+   <p>
+Even though it started as a learning project, it ended up becoming one of the most valuable experiences in my journey.
+      </p>`,
+   },
+   //daystack
+   {
+      id: 6,
+      author: "ReactJs",
+      title: "DayStacks",
+      image: project11,
+      description:
+         "Developed a smart productivity app with chatbot-driven task management, calendar integration, and in-app YouTube embedding for distraction-free learning, with 40+ active users.",
+      content: `<p>
+        Building Daystacks: From a Simple Todo App to a Focused Productivity System
+        </p>
+   <br>
+
+   <p>
+Daystacks didn’t start as something ambitious. It began as a simple goal—to build a project after learning React. Like most developers, I initially thought of creating a basic todo application, something common and easy to implement.
+</p>
+   <br>
+
+   <p>
+But while building it, I realized something important: most todo apps are limited. They help you list tasks, but they don’t actually help you stay focused or execute them efficiently. That’s where the idea evolved.
+</p>
+   <br>
+
+   <p>
+Instead of just building another checklist app, I decided to create something more practical—a workspace where planning, learning, and execution could happen in one place.
+</p>
+   <br>
+
+   <p>
+The first major addition was YouTube and web integration. One of the biggest distractions while studying is constantly switching tabs between tasks and learning resources. So I built a system where users can embed YouTube videos or useful links directly into the app. The logic is simple but powerful: users input a link, the system validates and converts it into an embeddable format, and it becomes a reusable in-app learning resource. This eliminates unnecessary context switching and helps maintain focus.
+</p>
+   <br>
+
+   <p>
+The second and most defining feature is Ethos—an AI-powered chatbot that goes beyond just answering questions. Unlike typical chatbots, Ethos is action-oriented. It doesn’t just respond; it interacts with the application itself. It can create tasks, update them, mark them complete, or delete them—all through structured commands. This transforms the app from a passive tool into an active assistant.
+</p>
+   <br>
+
+   <p>
+From a technical perspective, the architecture is clean and practical. The application is built using React, Vite, TailwindCSS, and React Context for global state management. All critical data—tasks, user inputs, and layout states—are persisted using localStorage, ensuring that user progress is maintained even after reloads.
+</p>
+   <br>
+
+   <p>
+Routing is designed to keep the experience smooth and modular. The Today view, calendar scheduling, and dynamic web/video viewer are all separated into independent routes while still maintaining a seamless single-page application feel.
+</p>
+   <br>
+
+   <p>
+Another important aspect was performance and usability. I ensured minimal re-renders, efficient state updates, and a clean UI that avoids unnecessary complexity. Features like dark mode, calendar planning, and quick navigation further enhance the user experience.
+</p>
+   <br>
+
+   <p>
+The result is not just a todo app—it’s a focused productivity system. Currently, 40+ active users, including my batchmates, use it regularly, especially for reducing distractions while studying.
+</p>
+   <br>
+
+   <p>
+This project taught me a key lesson: good products don’t come from building something new—they come from improving something that already exists but isn’t working well enough.
+     </p>`,
+   },
+   //farmer assistant app
+   {
+      id: 14,
+      author: "Gemini, React Native expo",
+      title: "Farmer Assistant App",
+      image: project13,
+      description:
+         "An AI-powered mobile app providing real-time agricultural guidance via voice and text chatbot, designed for seamless and accessible farmer support.",
+      content: `<p>
       Building My First Mobile App: AI-Based Crop Recommendation System
 </p>
    <br>
@@ -876,15 +821,16 @@ Async Storage (v2.1.2) - Local data persistence
 <br>
 Axios (^1.12.2) - HTTP client
 </p>`,
-  },
-  {
-    id: 15,
-    author: "Supabase, Vertex AI, React Native expo",
-    title: "Snapexx App",
-    image: project14,
-    description:
-      "This is the cross platform mobile version of Snapexx web application. ",
-    content: `<p>
+   },
+   //snapexx app
+   {
+      id: 15,
+      author: "Supabase, Vertex AI, React Native expo",
+      title: "Snapexx App",
+      image: project14,
+      description:
+         "This is the cross platform mobile version of Snapexx web application. ",
+      content: `<p>
 The SnapExx mobile application was actually where the entire idea started. Before the web version, my initial plan was to build and launch it directly as a mobile app using React Native (Expo). At that time, my focus was simple—create an AI-powered application where users can generate and enhance images and videos.
 </p>
    <br>
@@ -952,15 +898,16 @@ If you want to explore the complete system and features, you can refer to the Sn
    <p>
 This experience shifted my mindset from just building applications to thinking like a product developer—where decisions are based not only on what can be built, but what should be shipped.
   </p>`,
-  },
-  {
-    id: 17,
-    author: "React Native expo, Supabase, Corn-job, WaSenderAPI",
-    title: "SendBox App",
-    image: project16,
-    description:
-      "This is the cross platform mobile version of SendBox web application. ",
-    content: `
+   },
+   //sandbox app
+   {
+      id: 17,
+      author: "React Native expo, Supabase, Corn-job, WaSenderAPI",
+      title: "SendBox App",
+      image: project16,
+      description:
+         "This is the cross platform mobile version of SendBox web application. ",
+      content: `
    <p> The SendBox mobile application was developed as a natural extension of our institution’s needs after successfully building the web version. </p> 
    <br> 
    <p> Rather than reinventing the system, we focused on bringing the same core functionality, purpose, and user experience to mobile devices. The tech stack remained largely consistent with the web version, with one major shift—adopting React Native with Expo to enable cross-platform mobile development. 
@@ -972,15 +919,146 @@ This experience shifted my mindset from just building applications to thinking l
    </a> 
    </p>
           `,
-  },
-  {
-    id: 16,
-    author: "Problem Statements",
-    title: "Hackathons",
-    image: project15,
-    description:
-      "In this blog you will get to know about the problem statements of various hackathons in which i have been the finalist. ",
-    content: `
+   },
+   //ecotravel
+   {
+      id: 8,
+      author: "Supabase, ReactJs",
+      title: "EcoTravel",
+      image: project3,
+      description:
+         "EcoTravel is a sustainable travel planner that offers voice-based chatbot-assisted journey planning, event discovery, and community-driven discussion, notes for a smarter travel experience.",
+      content: `<p>
+
+EcoTravel wasn’t an idea I spent weeks brainstorming. It came from a problem statement assigned during one of my second-year subjects. Out of multiple options, this was the one that genuinely stood out to me—not just as an academic task, but as something with real potential.
+</p>
+   <br>
+
+   <p>
+The concept was simple: build a platform that helps users make more sustainable travel decisions. But as I explored deeper, I realized this wasn’t just another project—it could evolve into something meaningful.
+</p>
+   <br>
+
+   <p>
+This was the “vibe-coded” projects. Instead of over-planning every detail, I focused on building, experimenting, and iterating as I progressed. The goal was to create a functional and engaging system rather than getting stuck in perfect architecture from the start.
+</p>
+   <br>
+
+   <p>
+EcoTravel is a full-stack web application designed to promote sustainable tourism. It brings together multiple features into a single platform—eco-friendly destination discovery, community-driven notes, travel insights, and an AI-powered chatbot (EcoBot) that guides users toward better travel decisions.
+</p>
+   <br>
+
+   <p>
+One of the most interesting parts of this project is EcoBot. It acts as an intelligent assistant that can answer questions about sustainable travel, recommend eco-friendly options, and even interact through voice. Instead of static information, users get a conversational and interactive experience.
+</p>
+   <br>
+
+   <p>
+From a technical perspective, the application is built using modern tools like React, TypeScript, TailwindCSS, and Supabase. The focus was on creating a smooth user experience, fast performance, and a clean interface that doesn’t overwhelm users.
+</p>
+   <br>
+
+   <p>
+The biggest challenge in this project was not just implementation, but direction. Since this wasn’t a strictly defined real-world requirement, I had to decide what features actually matter and what adds value. It required balancing between building something useful and not overcomplicating the system.
+</p>
+   <br>
+
+   <p>
+Another limitation was backend infrastructure. Due to API and service constraints, the application is not fully active at the moment. But this doesn’t reduce its potential—in fact, it highlights how much more can be built on top of it.
+</p>
+   <br>
+
+   <p>
+EcoTravel made me realize that not every impactful project starts with a perfect idea. Sometimes, you discover the potential while building.
+</p>
+   <br>
+
+   <p>
+What started as a college assignment can be turned into a platform that can genuinely evolve into a real product.
+  </p>`,
+   },
+   //cidc
+   {
+      id: 5,
+      author: "NextJs",
+      title: "CIDC",
+      image: project2,
+      description:
+         "Developed the official IT department club website for AIT, Pune, actively used by club members and faculty with 30+ regular interactions.",
+      content: `<p>
+    Building the CIDC Website: Solving a Real Problem Within the Club
+    </p>
+   <br>
+
+<p>
+CIDC (College Innovation and Development Club) is the official technical club of Army Institute of Technology, Pune. I joined the club in my first year as an FE member, and in my second year, I was promoted to Joint Secretary and selected as the Dev Lead. With this role came responsibility—not just to contribute, but to actually improve how the club functions.
+</p>
+<br>
+
+<p>
+One major issue I noticed was that all club information was maintained on paper. Details like team members, leadership roles, ongoing projects, and past work were not easily accessible. Anyone who wanted information—whether a student or faculty member—had to rely on manual records or word of mouth. This was clearly inefficient and not scalable.
+</p>
+   <br>
+
+<p>
+That’s when I decided to build the official CIDC website.
+</p>
+   <br>
+
+<p>
+The goal was simple: create a centralized platform where anyone could access all relevant information about the club—from team structure to projects and updates—anytime, from anywhere. Instead of solving a hypothetical problem, this was about fixing something we were actually facing.
+</p>
+   <br>
+
+   <p>
+I started with research, exploring different UI/UX styles and design approaches. That’s when I came across retro-themed interfaces. The style stood out to me—it was unique, visually engaging, and different from typical modern designs. I decided to go with a retro theme to give the website a distinct identity.
+</p>
+   <br>
+
+   <p>
+Before writing any code, I created rough sketches to plan the layout and structure. Once the design direction was clear, I started building the website using Next.js, focusing on performance, scalability, and clean routing.
+</p>
+   <br>
+
+   <p>
+The website includes all essential sections—team members, leadership roles, project showcases, and updates—making it a complete information hub. I also ensured the site was fully responsive and optimized for a smooth user experience across devices.
+</p>
+   <br>
+
+   <p>
+The biggest challenge I faced was in the design phase. Translating a retro concept into a functional, user-friendly interface wasn’t straightforward. Balancing aesthetics with usability required multiple iterations and constant refinement.
+</p>
+   <br>
+
+   <p>
+After deployment, the impact was immediate. The website now receives 40+ active users, and accessing club information has become seamless. Students and faculty can easily explore the club, understand its structure, and stay updated with ongoing work.
+</p>
+   <br>
+
+   <p>
+One of the most rewarding moments was receiving positive feedback from both users and faculty, along with a letter of appreciation for building the platform. It validated that the solution was not just functional, but genuinely useful.
+</p>
+   <br>
+
+   <p>
+This project taught me an important lesson: impactful projects don’t always come from big ideas—they come from solving real problems around you. As a Dev Lead, this wasn’t just about building a website—it was about creating something meaningful for the community I was part of.
+</p>
+   <br>
+
+   <p>
+Overall CIDC says: "Built what matters !!"
+   </p>`,
+   },
+   //hackathons
+   {
+      id: 16,
+      author: "Problem Statements",
+      title: "Hackathons",
+      image: project15,
+      description:
+         "This blog contains the problem statements from various hackathons in which I have been a finalist.",
+      content: `
     <p>
 ⚙️ Won PARTEX.AI Hackathon:-
 <br>
@@ -1021,5 +1099,5 @@ Designed an intelligent classroom HVAC system to optimize temperature and energy
 The idea is to Built an AI-powered legal and financial analysis system that simplifies complex documents into actionable insights. Features include risk detection, clause comparison, compliance validation (RBI/SEBI), and a trust score to help users make informed financial decisions.
 </p>
           `,
-  },
+   },
 ];
