@@ -57,25 +57,20 @@ const about = () => {
                 Biography
               </h2>
               <p className="font-medium">
-                Hello, I am Abhay Singh, a passionate B-Tech student currently
-                studying at Army Institute of Technology in Pune, Maharashtra.
-                With a strong focus on development, I possess a diverse range of
-                skills that include HTML, CSS, JavaScript, MongoDB, Next.js,
-                React.js, Node.js, Express.js, React Native, Designing, MySQL, 
-                Supabase, C++, Python, Docker, Git, GitHub, GitLab, Linux, Automation, Hosting &
-                AI Agents.
+                Hello, I am Abhay Singh,
+                Software & AI Engineer focused on building scalable systems, intelligent automation, & products that solve real-world problems.
               </p>
               <p className="font-medium my-4">
-                Apart from my technical abilities, I have a keen interest in
-                playing Badminton & Football they keep me active and help
-                sharpen my focus, strategy, and decision-making.
+                Currently pursuing a B.E. in Information Technology at Army Institute of Technology, Pune, while serving as Secretary of the College Innovation & Development Club. I have led the development of full-stack web & mobile applications, automation workflows, & AI-driven products.
               </p>
               <p className="font-medium">
-                In my portfolio, you will find a collection of my web & mobile
-                development projects that demonstrate my proficiency in crafting
-                visually appealing and functional applications. From responsive
-                designs to seamless user interactions, my work reflects my
-                commitment to excellence.
+                My interests lie at the intersection of backend engineering and artificial intelligence-designing production-grade architectures, developing scalable-secure APIs, orchestrating automated workflows, and integrating LLMs, RAG pipelines, and agentic systems into practical applications.
+              </p>
+              <p className="font-medium">
+                Alongside technical development, I enjoy leading teams, driving product execution, reviewing code, and coordinating end-to-end project delivery.
+              </p>
+              <p className="font-medium">
+                Built what matters! Always open to connecting with developers, builders, founders, and teams working on innovative software & AI technologies.
               </p>
             </div>
 
@@ -135,7 +130,7 @@ const about = () => {
           <Experience />
           <Education />
         </Layout>
-      </main>
+      </main >
     </>
   );
 };
