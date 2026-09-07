@@ -1075,7 +1075,7 @@ The problem focuses on fixing the chaotic communication system in real-world hos
           <p>
           🚀 NASA Space Apps Challenge:-
             <br>
-            Participated in a global hackathon focused on solving real-world space and Earth-related challenges using data-driven and innovative technology solutions under tight timelines.
+            Build an AI-powered NASA Space Biology research platform around 608 publications. Users should search and question studies, receive concise summaries of findings and experiments, and explore relationships through an interactive knowledge graph. The system should also identify scientific consensus, disagreements, and research gaps. Finally, provide role-specific insights for scientists, funding managers, and mission planners, supporting hypothesis generation, funding decisions, and Moon/Mars safety planning.
             </p>
             <br>
 
