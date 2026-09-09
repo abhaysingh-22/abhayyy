@@ -13,13 +13,13 @@ import TransitionEffect from '@/components/TransitionEffect'
 
 export default function Home() {
   const [copied, setCopied] = useState(false);
-  
+
   const copyToClipboard = () => {
     navigator.clipboard.writeText('npx abhay-singh');
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
   };
-  
+
   return (
     <>
       <Head>
@@ -38,8 +38,12 @@ export default function Home() {
                 priority sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw" />
             </div>
             <div className='w-1/2  flex flex-col items-center self-center lg:w-full lg:text-center'>
-              <AnimatedText text="Bringing Ideas to Life with MERN, GenAI and Automations" className='!text-5xl !text-left xl:!text-4xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl ' />
-              <p className='my-4 text-base font-medium md:text-sm sm:text-xs '> I build scalable web and mobile applications using MERN & react native, enhanced with GenAI and automation. Explore my projects and blogs to see how I solve real-world problems with efficient, production-ready solutions.</p>
+              <AnimatedText text="I think I likeee engineering :)" className='!text-5xl !text-left xl:!text-4xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl ' />
+              <p className='my-4 text-base font-medium md:text-sm sm:text-xs '> Software & AI Engineer building secure, scalable backend systems, AI applications, and automation used by thousands of users. Currently
+                serving as Secretary & former Development Head of college's innovation club at AIT, leading teams and maintaining infrastructure.
+                Skilled in designing production-grade REST APIs, secure authentication systems, database optimization, & developing LLM-powered
+                applications, agentic AI systems, & pipelines. Passionate about building reliable software combining modern AI with scalable backend
+                engineering.</p>
               <div className='flex items-center self-start mt-2 lg:self-center'>
                 <Link href="/abhayy.pdf" target={"_blank"}
                   className='flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold
