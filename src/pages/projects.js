@@ -21,6 +21,8 @@ import project13 from "../../public/images/projects/SIH.webp";
 import project14 from "../../public/images/projects/snapexxApp.webp";
 import project15 from "../../public/images/projects/hackathon.webp";
 import project16 from "../../public/images/projects/sendboxapp.webp";
+import project17 from "../../public/images/projects/synclip.webp";
+import project18 from "../../public/images/projects/recoup.webp";
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -208,16 +210,15 @@ const projects = () => {
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title="Personal Portfolio"
-                img={project6}
-                summary="/"
-                link="/"
-                github="https://github.com/abhaysingh-22/abhayyy"
+                title="SynClip"
+                img={project17}
+                link="https://synclip-ytio.onrender.com/"
+                github="https://github.com/abhaysingh-22/Synclip"
                 type="Blog"
-                typeLink="/books/3?from=projects"
+                typeLink="/books/18?from=projects"
+                imageClassName="w-3/4 h-auto mx-auto"
               />
             </div>
-
             <div className="col-span-12">
               <FeaturedProject
                 title="Snapexx"
@@ -231,43 +232,13 @@ const projects = () => {
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title="CIDC"
-                img={project2}
-                link="https://www.cidc.dev/"
-                github="https://github.com/Smart-AIT/cidc_website"
+                title="RecoupAI"
+                img={project18}
+                link="https://recoupai.vercel.app/"
+                github="https://github.com/abhaysingh-22/Razorpay"
                 type="Blog"
-                typeLink="/books/5?from=projects"
-              />
-            </div>
-            <div className="col-span-6 sm:col-span-12">
-              <Project
-                title="DayStacks"
-                img={project11}
-                link="https://tudu-vibe.vercel.app/"
-                github="https://github.com/abhaysingh-22/ToDo_React_App"
-                type="Blog"
-                typeLink="/books/6?from=projects"
-              />
-            </div>
-            <div className="col-span-12">
-              <FeaturedProject
-                title="TripNow"
-                img={project12}
-                summary="TripNow is a full-stack ride-hailing application inspired by other Riding applications, built with modern web technologies (MERN-stack). It allows users to book rides, captains to accept and manage rides, and includes real-time tracking, payment integration, location services & many more."
-                link="https://trip-now-phi.vercel.app/"
-                github="https://github.com/abhaysingh-22/TripNow"
-                type="Blog"
-                typeLink="/books/7?from=projects"
-              />
-            </div>
-            <div className="col-span-6 sm:col-span-12">
-              <Project
-                title="EcoTravel"
-                img={project3}
-                link="https://ecotravel-omega.vercel.app/"
-                github="https://github.com/abhaysingh-22/CEP"
-                type="Blog"
-                typeLink="/books/8?from=projects"
+                typeLink="/books/19?from=projects"
+                imageClassName="w-3/4 h-auto mx-auto"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
@@ -291,19 +262,9 @@ const projects = () => {
                 typeLink="/books/11?from=projects"
               />
             </div>
-            {/* <div className="col-span-6 sm:col-span-12">
-              <Project
-                title="MusicSystem"
-                img={project6}
-                link="/"
-                github="https://github.com/abhaysingh-22/Song"
-                type="Blog"
-                typeLink="/"
-              />
-            </div> */}
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title="Sniffi"
+                title="Sniffi(Freelanced)"
                 img={project10}
                 link="https://www.sniffi.in/"
                 github="https://github.com/abhaysingh-22/sniffi-frontend"
@@ -313,12 +274,44 @@ const projects = () => {
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title="Nexabots"
+                title="Nexabots(Freelanced)"
                 img={project5}
                 link="/"
                 github="https://github.com/abhaysingh-22/nexobots"
                 type="Blog"
                 typeLink="/books/13?from=projects"
+              />
+            </div>
+            <div className="col-span-12">
+              <FeaturedProject
+                title="TripNow"
+                img={project12}
+                summary="TripNow is a full-stack ride-hailing application inspired by other Riding applications, built with modern web technologies (MERN-stack). It allows users to book rides, captains to accept and manage rides, and includes real-time tracking, payment integration, location services & many more."
+                link="https://trip-now-phi.vercel.app/"
+                github="https://github.com/abhaysingh-22/TripNow"
+                type="Blog"
+                typeLink="/books/7?from=projects"
+              />
+            </div>
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                title="DayStacks"
+                img={project11}
+                link="https://tudu-vibe.vercel.app/"
+                github="https://github.com/abhaysingh-22/ToDo_React_App"
+                type="Blog"
+                typeLink="/books/6?from=projects"
+              />
+            </div>
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                title="Personal Portfolio"
+                img={project6}
+                summary="/"
+                link="/"
+                github="https://github.com/abhaysingh-22/abhayyy"
+                type="Blog"
+                typeLink="/books/3?from=projects"
               />
             </div>
             <div className="col-span-12">
@@ -344,13 +337,12 @@ const projects = () => {
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title="Hackathons"
-                img={project15}
-                link="/books/16?from=projects"
-                github="https://github.com/PankajKumar17/partex-ai-hackathon"
+                title="CIDC"
+                img={project2}
+                link="https://www.cidc.dev/"
+                github="https://github.com/Smart-AIT/cidc_website"
                 type="Blog"
-                typeLink="/books/16?from=projects"
-                imageClassName="w-3/4 h-auto mx-auto"
+                typeLink="/books/5?from=projects"
               />
             </div>
             <div className="col-span-12">
@@ -362,6 +354,37 @@ const projects = () => {
                 github="https://github.com/Smart-AIT/sendboxapp"
                 type="Blog"
                 typeLink="/books/17?from=projects"
+              />
+            </div>
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                title="EcoTravel"
+                img={project3}
+                link="https://ecotravel-omega.vercel.app/"
+                github="https://github.com/abhaysingh-22/CEP"
+                type="Blog"
+                typeLink="/books/8?from=projects"
+              />
+            </div>
+            {/* <div className="col-span-6 sm:col-span-12">
+              <Project
+                title="MusicSystem"
+                img={project6}
+                link="/"
+                github="https://github.com/abhaysingh-22/Song"
+                type="Blog"
+                typeLink="/"
+              />
+            </div> */}
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                title="Hackathons"
+                img={project15}
+                link="/books/16?from=projects"
+                github="https://github.com/PankajKumar17/partex-ai-hackathon"
+                type="Blog"
+                typeLink="/books/16?from=projects"
+                imageClassName="w-3/4 h-auto mx-auto"
               />
             </div>
           </div>
