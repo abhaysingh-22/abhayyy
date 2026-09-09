@@ -40,7 +40,7 @@ export default function Home() {
             <div className='w-1/2  flex flex-col items-center self-center lg:w-full lg:text-center'>
               <AnimatedText text="I think I likeee engineering :)" className='!text-5xl !text-left xl:!text-4xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl ' />
               <p className='my-4 text-base font-medium md:text-sm sm:text-xs '> Software & AI Engineer building secure, scalable backend systems, AI applications, and automation used by thousands of users. Currently
-                serving as Secretary & former Development Head of college's innovation club at AIT, leading teams and maintaining infrastructure.
+                serving as Secretary & former Development Head of college&apos;s innovation club at AIT, leading teams and maintaining infrastructure.
                 Skilled in designing production-grade REST APIs, secure authentication systems, database optimization, & developing LLM-powered
                 applications, agentic AI systems, & pipelines. Passionate about building reliable software combining modern AI with scalable backend
                 engineering.</p>
