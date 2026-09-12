@@ -356,7 +356,7 @@ const projects = () => {
                 typeLink="/books/17?from=projects"
               />
             </div>
-            <div className="col-span-6 sm:col-span-12">
+            {/* <div className="col-span-6 sm:col-span-12">
               <Project
                 title="EcoTravel"
                 img={project3}
@@ -365,7 +365,7 @@ const projects = () => {
                 type="Blog"
                 typeLink="/books/8?from=projects"
               />
-            </div>
+            </div> */}
             {/* <div className="col-span-6 sm:col-span-12">
               <Project
                 title="MusicSystem"

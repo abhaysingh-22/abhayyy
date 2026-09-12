@@ -921,63 +921,63 @@ This experience shifted my mindset from just building applications to thinking l
           `,
    },
    //ecotravel
-   {
-      id: 8,
-      author: "Supabase, ReactJs",
-      title: "EcoTravel",
-      image: project3,
-      description:
-         "EcoTravel is a sustainable travel planner that offers voice-based chatbot-assisted journey planning, event discovery, and community-driven discussion, notes for a smarter travel experience.",
-      content: `<p>
+//    {
+//       id: 8,
+//       author: "Supabase, ReactJs",
+//       title: "EcoTravel",
+//       image: project3,
+//       description:
+//          "EcoTravel is a sustainable travel planner that offers voice-based chatbot-assisted journey planning, event discovery, and community-driven discussion, notes for a smarter travel experience.",
+//       content: `<p>
 
-EcoTravel wasn’t an idea I spent weeks brainstorming. It came from a problem statement assigned during one of my second-year subjects. Out of multiple options, this was the one that genuinely stood out to me—not just as an academic task, but as something with real potential.
-</p>
-   <br>
+// EcoTravel wasn’t an idea I spent weeks brainstorming. It came from a problem statement assigned during one of my second-year subjects. Out of multiple options, this was the one that genuinely stood out to me—not just as an academic task, but as something with real potential.
+// </p>
+//    <br>
 
-   <p>
-The concept was simple: build a platform that helps users make more sustainable travel decisions. But as I explored deeper, I realized this wasn’t just another project—it could evolve into something meaningful.
-</p>
-   <br>
+//    <p>
+// The concept was simple: build a platform that helps users make more sustainable travel decisions. But as I explored deeper, I realized this wasn’t just another project—it could evolve into something meaningful.
+// </p>
+//    <br>
 
-   <p>
-This was the “vibe-coded” projects. Instead of over-planning every detail, I focused on building, experimenting, and iterating as I progressed. The goal was to create a functional and engaging system rather than getting stuck in perfect architecture from the start.
-</p>
-   <br>
+//    <p>
+// This was the “vibe-coded” projects. Instead of over-planning every detail, I focused on building, experimenting, and iterating as I progressed. The goal was to create a functional and engaging system rather than getting stuck in perfect architecture from the start.
+// </p>
+//    <br>
 
-   <p>
-EcoTravel is a full-stack web application designed to promote sustainable tourism. It brings together multiple features into a single platform—eco-friendly destination discovery, community-driven notes, travel insights, and an AI-powered chatbot (EcoBot) that guides users toward better travel decisions.
-</p>
-   <br>
+//    <p>
+// EcoTravel is a full-stack web application designed to promote sustainable tourism. It brings together multiple features into a single platform—eco-friendly destination discovery, community-driven notes, travel insights, and an AI-powered chatbot (EcoBot) that guides users toward better travel decisions.
+// </p>
+//    <br>
 
-   <p>
-One of the most interesting parts of this project is EcoBot. It acts as an intelligent assistant that can answer questions about sustainable travel, recommend eco-friendly options, and even interact through voice. Instead of static information, users get a conversational and interactive experience.
-</p>
-   <br>
+//    <p>
+// One of the most interesting parts of this project is EcoBot. It acts as an intelligent assistant that can answer questions about sustainable travel, recommend eco-friendly options, and even interact through voice. Instead of static information, users get a conversational and interactive experience.
+// </p>
+//    <br>
 
-   <p>
-From a technical perspective, the application is built using modern tools like React, TypeScript, TailwindCSS, and Supabase. The focus was on creating a smooth user experience, fast performance, and a clean interface that doesn’t overwhelm users.
-</p>
-   <br>
+//    <p>
+// From a technical perspective, the application is built using modern tools like React, TypeScript, TailwindCSS, and Supabase. The focus was on creating a smooth user experience, fast performance, and a clean interface that doesn’t overwhelm users.
+// </p>
+//    <br>
 
-   <p>
-The biggest challenge in this project was not just implementation, but direction. Since this wasn’t a strictly defined real-world requirement, I had to decide what features actually matter and what adds value. It required balancing between building something useful and not overcomplicating the system.
-</p>
-   <br>
+//    <p>
+// The biggest challenge in this project was not just implementation, but direction. Since this wasn’t a strictly defined real-world requirement, I had to decide what features actually matter and what adds value. It required balancing between building something useful and not overcomplicating the system.
+// </p>
+//    <br>
 
-   <p>
-Another limitation was backend infrastructure. Due to API and service constraints, the application is not fully active at the moment. But this doesn’t reduce its potential—in fact, it highlights how much more can be built on top of it.
-</p>
-   <br>
+//    <p>
+// Another limitation was backend infrastructure. Due to API and service constraints, the application is not fully active at the moment. But this doesn’t reduce its potential—in fact, it highlights how much more can be built on top of it.
+// </p>
+//    <br>
 
-   <p>
-EcoTravel made me realize that not every impactful project starts with a perfect idea. Sometimes, you discover the potential while building.
-</p>
-   <br>
+//    <p>
+// EcoTravel made me realize that not every impactful project starts with a perfect idea. Sometimes, you discover the potential while building.
+// </p>
+//    <br>
 
-   <p>
-What started as a college assignment can be turned into a platform that can genuinely evolve into a real product.
-  </p>`,
-   },
+//    <p>
+// What started as a college assignment can be turned into a platform that can genuinely evolve into a real product.
+//   </p>`,
+//    },
    //cidc
    {
       id: 5,
