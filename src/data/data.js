@@ -217,7 +217,7 @@ This journey showed me that real learning doesn’t come from tutorials—it com
    //CSA
    {
       id: 11,
-      author: "FastAPI, OpenEnv, HuggingFace",
+      author: "FastAPI, OpenEnv, HuggingFace, Docker",
       title: "Customer-Support-Agent",
       image: project4,
       description:
@@ -300,7 +300,7 @@ This wasn’t just a project. It was a test of patience, precision, and problem-
    //recoupAI
    {
       id: 19,
-      author: "FastAPI, ReactJs, Groq, Supabase",
+      author: "FastAPI, ReactJs, Groq, LangGraph, Docker, AWS, Supabase",
       title: "RecoupAI",
       image: project18,
       description:
